@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#2563eb',
-        secondary: '#7c3aed',
-        dark: '#0f172a'
+        primary: '#0ea5e9',
+        accent: '#22d3ee',
+        dark: '#020617'
       },
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+        sans: ['"Inter"', 'system-ui', 'sans-serif']
       },
       boxShadow: {
-        card: '0 24px 60px -30px rgba(37, 99, 235, 0.35)'
+        glow: '0 20px 45px -20px rgba(14, 165, 233, 0.45)'
       }
     }
   },

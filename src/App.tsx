@@ -1,29 +1,36 @@
-import About from './components/About';
-import Contact from './components/Contact';
-import ExperienceSection from './components/ExperienceSection';
-import Footer from './components/Footer';
-import HeaderNav from './components/HeaderNav';
-import Hero from './components/Hero';
-import ImpactShowcase from './components/ImpactShowcase';
-import LeadershipHighlights from './components/LeadershipHighlights';
-import SkillsCertifications from './components/SkillsCertifications';
+import { Routes, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import SiteLayout from './components/layout/SiteLayout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
-const App = () => {
-  return (
-    <div id="top" className="bg-slate-950 text-slate-100">
-      <HeaderNav />
-      <main>
-        <Hero />
-        <About />
-        <ExperienceSection />
-        <LeadershipHighlights />
-        <SkillsCertifications />
-        <ImpactShowcase />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
-};
+const App = () => (
+  <>
+    <Helmet defaultTitle="Kristopher Roller — Technical Support Professional" titleTemplate="%s | The Roller Method">
+      <html lang="en" />
+      <meta
+        name="description"
+        content="Professional portfolio for Kristopher Roller — Technical Support Professional, leader, and creator of the D4ET bot."
+      />
+      <meta name="theme-color" content="#0f172a" />
+    </Helmet>
+    <Routes>
+      <Route element={<SiteLayout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="experience" element={<Experience />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="resume" element={<Resume />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
+  </>
+);
 
 export default App;
