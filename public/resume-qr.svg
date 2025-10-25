@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">QR code placeholder</title>
+  <desc id="desc">Placeholder QR code directing to Kristopher Roller resume.</desc>
+  <rect width="128" height="128" fill="#020617" rx="12" />
+  <g fill="#38bdf8">
+    <rect x="10" y="10" width="28" height="28" rx="4" />
+    <rect x="90" y="10" width="28" height="28" rx="4" />
+    <rect x="10" y="90" width="28" height="28" rx="4" />
+    <rect x="36" y="44" width="12" height="12" />
+    <rect x="52" y="28" width="12" height="12" />
+    <rect x="68" y="44" width="12" height="12" />
+    <rect x="84" y="60" width="12" height="12" />
+    <rect x="52" y="60" width="12" height="12" />
+    <rect x="68" y="76" width="12" height="12" />
+    <rect x="36" y="76" width="12" height="12" />
+    <rect x="84" y="92" width="12" height="12" />
+    <rect x="68" y="92" width="12" height="12" />
+    <rect x="52" y="92" width="12" height="12" />
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+import { useMemo, useState } from 'react';
+import { Helmet } from 'react-helmet';
+import SectionHeader from '../components/common/SectionHeader';
+import { ExperienceCategory, experiences } from '../data/experience';
+
+const filters: ExperienceCategory[] = ['Technical Support', 'Leadership'];
+
+const Experience = () => {
+  const [activeFilter, setActiveFilter] = useState<ExperienceCategory>('Technical Support');
+
+  const filtered = useMemo(
+    () => experiences.filter((item) => item.category === activeFilter),
+    [activeFilter]
+  );
+
+  return (
+    <div className="space-y-16">
+      <Helmet>
+        <title>Experience</title>
+        <meta
+          name="description"
+          content="Explore Kristopher Roller’s experience leading technical support teams, reducing handle time, and driving documentation excellence."
+        />
+      </Helmet>
+      <section className="section-container space-y-10">
+        <SectionHeader
+          eyebrow="Experience"
+          title="Where I’ve delivered impact"
+          description="Interactive timeline of the roles where I’ve reduced average handle time, elevated documentation, and coached teams to outperform KPIs."
+        />
+        <div className="flex flex-wrap gap-3">
+          {filters.map((filter) => (
+            <button
+              key={filter}
+              type="button"
+              className={`rounded-full border px-5 py-2 text-sm font-medium transition ${
+                filter === activeFilter
+                  ? 'border-primary bg-primary/20 text-white shadow-glow'
+                  : 'border-slate-800 bg-slate-900/60 text-slate-300 hover:border-slate-700 hover:text-white'
+              }`}
+              onClick={() => setActiveFilter(filter)}
+            >
+              {filter}
+            </button>
+          ))}
+        </div>
+        <div className="space-y-6">
+          {filtered.map((item) => (
+            <article key={item.id} className="card glass space-y-5 border-slate-800/70 bg-slate-900/70 p-8">
+              <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <h3 className="text-2xl font-semibold text-slate-50">{item.role}</h3>
+                  <p className="text-sm font-medium text-primary">{item.company}</p>
+                </div>
+                <div className="text-xs uppercase tracking-[0.28em] text-slate-500">{item.period}</div>
+              </div>
+              {item.aht ? (
+                <p className="text-xs uppercase tracking-[0.32em] text-teal-300">{item.aht}</p>
+              ) : null}
+              <ul className="space-y-2 text-sm text-slate-300">
+                {item.highlights.map((highlight) => (
+                  <li key={highlight} className="leading-relaxed">
+                    • {highlight}
+                  </li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Experience;
