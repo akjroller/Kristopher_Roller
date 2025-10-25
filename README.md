@@ -27,3 +27,13 @@ Then preview the build locally:
 ```bash
 npm run preview
 ```
+
+## Deploy with Docker
+
+You can build and run the production bundle in a container listening on port 5000:
+
+```bash
+docker compose up --build -d
+```
+
+The site will be available at http://localhost:5000.
