@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: theme('colors.secondary');
+}
+
+.section-container {
+  @apply mx-auto max-w-6xl px-6 py-16 md:px-10;
+}
+
+.section-title {
+  @apply mb-6 text-3xl font-semibold tracking-tight md:text-4xl;
+}
+
+.section-subtitle {
+  @apply text-lg text-slate-300 md:text-xl;
+}
+
+.card {
+  @apply rounded-2xl border border-slate-800 bg-slate-900/60 p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-xl;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full border border-slate-800 bg-slate-900 px-3 py-1 text-sm font-medium text-slate-300;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, theme('colors.primary'), theme('colors.secondary'));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timeline::before {
+  @apply absolute left-3 top-0 h-full w-0.5 bg-slate-800 md:left-0;
+  content: '';
+}
+
+.timeline-item {
+  @apply relative pl-10 md:pl-12;
+}
+
+.timeline-item::before {
+  @apply absolute left-0 top-2 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-primary bg-slate-900 md:left-0 md:-translate-x-1/2;
+  content: '';
+}
