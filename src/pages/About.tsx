@@ -24,8 +24,8 @@ const About = () => (
         <div className="space-y-10">
           <SectionHeader
             eyebrow="My story"
-            title="From customer empathy to technical leadership"
-            description="Every chapter of my career has centered on helping people navigate complex systems. The Roller Method emerged from blending that empathy with agile practices and a developer mindset."
+            title="Supervisor-led support with a builder’s heart"
+            description="Every stage of my career sharpened a different edge — call center empathy, technical depth, supervisor cadence, and now automation that amplifies it all."
           />
           <div className="space-y-6">
             {journey.map((entry) => (
@@ -47,7 +47,7 @@ const About = () => (
             />
           </div>
           <blockquote className="card bg-slate-900/60 p-8 text-lg text-slate-200">
-            “The Roller Method is about clarity, consistency, and continuous improvement.”
+            “The Roller Method means lead with calm, solve with empathy, and automate the follow-through.”
           </blockquote>
         </div>
       </div>

@@ -1,8 +1,8 @@
 export const resumeHighlights = [
-  'Average handle time under five minutes across high-volume programs.',
+  'Supervisor leadership for 25+ remote agents with disciplined coaching rhythms.',
+  'Average handle time under five minutes across high-volume technical support programs.',
   'Creator and product owner for the D4ET bot serving 413k+ community members.',
-  'Leadership experience guiding 25+ person remote teams with Agile coaching.',
-  'Continuous documentation improvements that reduce onboarding friction and escalations.'
+  'Automation and knowledge refresh systems that keep documentation actionable and current.'
 ];
 
 export const resumeUrl = '/resume.pdf';

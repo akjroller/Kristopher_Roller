@@ -29,7 +29,8 @@ export const featuredProject: ProjectSummary = {
   tech: ['Python 3', 'AWS Lambda + Aurora', 'Redis', 'Discord API', 'Docker', 'CDN'],
   links: [
     { label: 'View on GitHub', href: 'https://github.com/akjroller' },
-    { label: 'Join the server', href: 'https://discord.gg/' }
+    { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' },
+    { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
   ],
   image: '/d4et-dashboard.svg'
 };
@@ -45,7 +46,8 @@ export const secondaryProjects: ProjectSummary[] = [
     ],
     tech: ['Notion API', 'Next.js', 'Vercel Cron', 'Supabase'],
     links: [
-      { label: 'View architecture', href: 'https://github.com/akjroller' }
+      { label: 'View architecture', href: 'https://github.com/akjroller' },
+      { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' }
     ]
   },
   {
@@ -58,7 +60,8 @@ export const secondaryProjects: ProjectSummary[] = [
     ],
     tech: ['Python', 'Pandas', 'Slack API', 'AWS EventBridge'],
     links: [
-      { label: 'See sample notebook', href: 'https://github.com/akjroller' }
+      { label: 'See sample notebook', href: 'https://github.com/akjroller' },
+      { label: 'Indeed profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
     ]
   }
 ];

@@ -1,79 +1,62 @@
 import { motion } from 'framer-motion';
-import {
-  Bot,
-  FileText,
-  Headset,
-  LineChart,
-  Sparkles,
-  Workflow
-} from 'lucide-react';
+import { ShieldCheck, LifeBuoy, Code2, PhoneCall } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const focusAreas = [
-  'Designing calm, high-performing support experiences',
-  'Coaching teams with data-backed playbooks',
-  'Automating insights so leaders can act sooner'
+  'Supervisor operating rhythms that keep teams steady and accountable',
+  'Hands-on technical troubleshooting across software, hardware, and security',
+  'Automation and analytics that push insight to the frontlines before it is needed'
 ];
 
 const impactStats = [
   { label: 'Servers powered by D4ET', value: '3,500+' },
   { label: 'Knowledge refreshes delivered', value: '60+ articles' },
-  { label: 'Avg. handle time maintained', value: '< 5 minutes' }
+  { label: 'Queue leadership', value: '25+ agents coached' }
 ];
 
 const toolset = [
   'Python',
+  'TypeScript',
   'AWS',
   'PostgreSQL',
+  'Redis',
   'Discord API',
-  'Notion',
   'Zendesk',
-  'Power BI',
-  'Automation Anywhere'
+  'Power BI'
 ];
 
 const skillGroups = [
   {
-    title: 'Support operations leadership',
+    title: 'Supervisor leadership system',
     description:
-      'Omnichannel triage, crisis communications, and the day-to-day rhythms that keep teams confident under pressure.',
-    icon: Headset,
-    items: ['Escalation playbooks', 'Queue health analytics', 'Voice, chat, & email orchestration']
+      'Run calm, metrics-driven teams with cadence planning, QA reviews, and coaching paths tailored to every agent.',
+    icon: ShieldCheck,
+    tone: 'primary',
+    items: ['Performance dashboards & standups', 'Escalation + crisis communication playbooks', 'Hiring, payroll & stakeholder updates']
   },
   {
-    title: 'Documentation & enablement',
+    title: 'Technical support excellence',
     description:
-      'Transforming static knowledge bases into living systems that drive faster onboarding and consistent resolutions.',
-    icon: FileText,
-    items: ['Knowledge lifecycle management', 'Process clarity audits', 'Self-service UX design']
+      'Diagnose complex issues quickly while translating engineering language into clear, confident next steps.',
+    icon: LifeBuoy,
+    tone: 'primary',
+    items: ['Security-sensitive escalations', 'Omnichannel troubleshooting (voice, chat, email)', '< 5 minute handle time consistency']
   },
   {
-    title: 'Automation & internal tooling',
+    title: 'Coding & automation toolkit',
     description:
-      'Building scrappy, resilient tools that surface the right signals for agents, leaders, and communities.',
-    icon: Bot,
-    items: ['Discord & Slack bots', 'Workflow automation', 'API-driven data pipelines']
+      'Build bots, analytics, and documentation pipelines that surface the right insight at the right moment.',
+    icon: Code2,
+    tone: 'primary',
+    items: ['Python + TypeScript development', 'API orchestration & integrations', 'Automation that feeds knowledge bases']
   },
   {
-    title: 'Insights & continuous improvement',
+    title: 'Call center foundations',
     description:
-      'Translating complex datasets into next steps that protect customer trust and unlock team focus.',
-    icon: LineChart,
-    items: ['Support forecasting', 'Voice of the customer loops', 'KPI instrumentation & reporting']
-  },
-  {
-    title: 'Agile collaboration',
-    description:
-      'Facilitating retros, standups, and cross-functional partnerships that keep outcomes aligned with strategy.',
-    icon: Workflow,
-    items: ['Sprint & Kanban rituals', 'Stakeholder storytelling', 'Roadmapping & prioritization']
-  },
-  {
-    title: 'Experience design mindset',
-    description:
-      'Pairing empathy and experimentation to craft moments that feel personal, inclusive, and trustworthy.',
-    icon: Sparkles,
-    items: ['Journey mapping', 'Voice & tone systems', 'Feedback loops & surveys']
+      'Grounded in years on the phones — empathy, de-escalation, and protecting the customer promise no matter the queue.',
+    icon: PhoneCall,
+    tone: 'supporting',
+    items: ['First-contact resolution mindset', 'Soft-skills mentoring & shadowing', 'High-volume readiness & scheduling']
   }
 ];
 
@@ -94,8 +77,8 @@ const SkillShowcase = () => (
   <section className="section-container space-y-12">
     <SectionHeader
       eyebrow="Signature strengths"
-      title="The Roller Method toolset"
-      description="An end-to-end approach that blends support leadership, technical curiosity, and a product mindset to deliver remarkable customer experiences."
+      title="Supervisor-led support, supercharged by code"
+      description="Every engagement starts with leadership discipline, layers in technical support expertise, and finishes with tooling that keeps momentum going."
       align="center"
     />
     <div className="grid gap-10 xl:grid-cols-[1.05fr,0.95fr] xl:items-start">
@@ -152,7 +135,9 @@ const SkillShowcase = () => (
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
               variants={cardVariants}
-              className="skill-card glass h-full space-y-4 border-slate-800/70"
+              className={`skill-card glass h-full space-y-4 border-slate-800/70 ${
+                group.tone === 'supporting' ? 'opacity-80 border-dashed' : ''
+              }`}
             >
               <span className="icon-burst h-12 w-12">
                 <Icon className="h-5 w-5 text-primary" aria-hidden />

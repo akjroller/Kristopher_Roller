@@ -11,11 +11,11 @@ import NotFound from './pages/NotFound';
 
 const App = () => (
   <>
-    <Helmet defaultTitle="Kristopher Roller — Technical Support Professional" titleTemplate="%s | The Roller Method">
+    <Helmet defaultTitle="Kristopher Roller — Supervisor & Technical Support Leader" titleTemplate="%s | The Roller Method">
       <html lang="en" />
       <meta
         name="description"
-        content="Professional portfolio for Kristopher Roller — Technical Support Professional, leader, and creator of the D4ET bot."
+        content="Professional portfolio for Kristopher Roller — supervisor, technical support leader, automation builder, and creator of the D4ET bot."
       />
       <meta name="theme-color" content="#0f172a" />
     </Helmet>

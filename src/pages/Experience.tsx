@@ -3,10 +3,15 @@ import { Helmet } from 'react-helmet';
 import SectionHeader from '../components/common/SectionHeader';
 import { ExperienceCategory, experiences } from '../data/experience';
 
-const filters: ExperienceCategory[] = ['Technical Support', 'Leadership'];
+const filters: ExperienceCategory[] = [
+  'Supervisor Leadership',
+  'Technical Support',
+  'Coding & Automation',
+  'Call Center Foundations'
+];
 
 const Experience = () => {
-  const [activeFilter, setActiveFilter] = useState<ExperienceCategory>('Technical Support');
+  const [activeFilter, setActiveFilter] = useState<ExperienceCategory>('Supervisor Leadership');
 
   const filtered = useMemo(
     () => experiences.filter((item) => item.category === activeFilter),
@@ -26,7 +31,7 @@ const Experience = () => {
         <SectionHeader
           eyebrow="Experience"
           title="Where I’ve delivered impact"
-          description="Interactive timeline of the roles where I’ve reduced average handle time, elevated documentation, and coached teams to outperform KPIs."
+          description="Explore my supervisor leadership wins, technical support excellence, automation builds, and the call center foundation that still shapes my approach."
         />
         <div className="flex flex-wrap gap-3">
           {filters.map((filter) => (
@@ -54,6 +59,9 @@ const Experience = () => {
                 </div>
                 <div className="text-xs uppercase tracking-[0.28em] text-slate-500">{item.period}</div>
               </div>
+              <p className="text-xs uppercase tracking-[0.32em] text-slate-500">
+                Focus: {item.category}
+              </p>
               {item.aht ? (
                 <p className="text-xs uppercase tracking-[0.32em] text-teal-300">{item.aht}</p>
               ) : null}

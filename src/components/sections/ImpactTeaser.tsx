@@ -7,7 +7,7 @@ const ImpactTeaser = () => (
       <SectionHeader
         eyebrow="Flagship initiative"
         title="Diablo 4 Events Tracker (D4ET)"
-        description="I architected and led a high-uptime Discord bot that alerts players to in-game events in near real-time — now powering communities across 3,500+ servers."
+        description="Supervisor calm meets engineering hustle: I architected and led a high-uptime Discord bot that now keeps 3,500+ communities in sync with in-game events."
       />
       <ul className="space-y-3 text-sm text-slate-300">
         <li className="card bg-slate-900/50 p-5 text-left">Delivered event notifications in &lt; 500ms using a distributed worker pattern and aggressive caching.</li>
@@ -31,13 +31,11 @@ const ImpactTeaser = () => (
     <div className="card glass space-y-4 p-8">
       <p className="text-sm text-slate-300">Tech stack</p>
       <div className="flex flex-wrap gap-3 text-sm text-slate-200">
-        {["Python", "AWS", "PostgreSQL", "Redis", "Discord API", "Docker", "Agile leadership"].map((item) => (
+        {["Python", "TypeScript", "AWS", "PostgreSQL", "Redis", "Discord API", "Docker", "Agile leadership"].map((item) => (
           <span key={item} className="badge-chip">{item}</span>
         ))}
       </div>
-      <p className="text-sm text-slate-400">
-        “The Roller Method is about clarity, consistency, and continuous improvement.”
-      </p>
+      <p className="text-sm text-slate-400">“Lead the humans, solve the issue, automate the win.”</p>
     </div>
   </section>
 );

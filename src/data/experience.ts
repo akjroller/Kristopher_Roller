@@ -1,4 +1,8 @@
-export type ExperienceCategory = 'Leadership' | 'Technical Support';
+export type ExperienceCategory =
+  | 'Supervisor Leadership'
+  | 'Technical Support'
+  | 'Coding & Automation'
+  | 'Call Center Foundations';
 
 export interface ExperienceItem {
   id: string;
@@ -11,6 +15,30 @@ export interface ExperienceItem {
 }
 
 export const experiences: ExperienceItem[] = [
+  {
+    id: 'conduent-supervisor',
+    role: 'Call Center Supervisor',
+    company: 'Conduent',
+    period: 'Oct 2021 – Mar 2022 · Remote',
+    category: 'Supervisor Leadership',
+    highlights: [
+      'Led a 25+ person team, coaching for quality, productivity, and compliance.',
+      'Launched contests and targeted training that elevated KPIs across the program.',
+      'Owned hiring, performance reviews, payroll, and stakeholder communications.'
+    ]
+  },
+  {
+    id: 'conduent-lead',
+    role: 'Call Center Team Leader',
+    company: 'Conduent',
+    period: 'Sep 2021 – Oct 2021 · Remote',
+    category: 'Supervisor Leadership',
+    highlights: [
+      'Partnered with supervisors to deliver KPIs through collaborative coaching.',
+      'Streamlined process updates and ensured real-time knowledge transfer to agents.',
+      'Monitored productivity to identify trends and close skill gaps quickly.'
+    ]
+  },
   {
     id: 'rimg-tsr',
     role: 'Technical Service Representative',
@@ -50,39 +78,27 @@ export const experiences: ExperienceItem[] = [
     ]
   },
   {
+    id: 'roller-automation',
+    role: 'Automation Architect & Community Builder',
+    company: 'The Roller Method',
+    period: 'Jun 2023 – Present · Remote',
+    category: 'Coding & Automation',
+    highlights: [
+      'Designed and shipped the D4ET Discord bot powering 3,500+ servers with sub-500ms event notifications.',
+      'Built analytics and alerting that surface community health, service uptime, and content refresh priorities.',
+      'Coordinated a distributed 5-person development squad, pairing agile ceremonies with community listening.'
+    ]
+  },
+  {
     id: 'ntt-support',
     role: 'Support Specialist',
     company: 'NTT DATA',
     period: 'Sep 2023 – Jan 2025 · Remote',
-    category: 'Technical Support',
+    category: 'Call Center Foundations',
     highlights: [
       'Fielded 50–75 daily calls assisting policyholders, agents, and internal teams with nuanced insurance inquiries.',
       'Resolved issues through deep product knowledge and proactive collaboration with leadership.',
       'Maintained top-tier service standards across productivity and quality benchmarks.'
-    ]
-  },
-  {
-    id: 'conduent-supervisor',
-    role: 'Call Center Supervisor',
-    company: 'Conduent',
-    period: 'Oct 2021 – Mar 2022 · Remote',
-    category: 'Leadership',
-    highlights: [
-      'Led a 25+ person team, coaching for quality, productivity, and compliance.',
-      'Launched contests and targeted training that elevated KPIs across the program.',
-      'Owned hiring, performance reviews, payroll, and stakeholder communications.'
-    ]
-  },
-  {
-    id: 'conduent-lead',
-    role: 'Call Center Team Leader',
-    company: 'Conduent',
-    period: 'Sep 2021 – Oct 2021 · Remote',
-    category: 'Leadership',
-    highlights: [
-      'Partnered with supervisors to deliver KPIs through collaborative coaching.',
-      'Streamlined process updates and ensured real-time knowledge transfer to agents.',
-      'Monitored productivity to identify trends and close skill gaps quickly.'
     ]
   }
 ];
