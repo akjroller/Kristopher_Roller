@@ -1,25 +1,31 @@
 import { motion } from 'framer-motion';
-import { Headset, NotebookPen, Sparkles } from 'lucide-react';
+import { UsersRound, LifeBuoy, Code2, PhoneCall } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const highlights = [
   {
-    title: 'Built for leadership-ready support',
+    title: 'Supervisor-grade leadership',
     description:
-      'From security-sensitive escalations to contact center supervision, I keep teams calm, focused, and accountable while protecting customer trust.',
-    icon: Headset
+      'I run calm, metrics-driven contact center teams — blending coaching rhythms, QA loops, and stakeholder comms that keep programs ahead of targets.',
+    icon: UsersRound
   },
   {
-    title: 'Documentation that drives performance',
+    title: 'Technical support mastery',
     description:
-      'I rework knowledge bases into living systems that shorten ramp times, reduce rework, and create clarity for agents and customers alike.',
-    icon: NotebookPen
+      'From TurboTax escalations to hardware triage, I translate complex issues into empathetic, efficient resolutions backed by < 5 minute handle times.',
+    icon: LifeBuoy
   },
   {
-    title: 'Automation that scales insight',
+    title: 'Builder & automation mindset',
     description:
-      'I love pairing Python, APIs, and analytics to surface trends and proactively flag opportunities for improvement.',
-    icon: Sparkles
+      'Python, APIs, and analytics are my toolkit for crafting bots and dashboards that surface the right insight exactly when teams need it.',
+    icon: Code2
+  },
+  {
+    title: 'Call center fundamentals',
+    description:
+      'Years on the phones taught me patience, active listening, and how to protect the customer experience no matter the queue volume.',
+    icon: PhoneCall
   }
 ];
 
@@ -27,11 +33,11 @@ const HomeHighlights = () => (
   <section className="section-container space-y-12">
     <SectionHeader
       eyebrow="Why teams partner with me"
-      title="Support excellence with a builder mindset"
-      description="My toolkit blends technical troubleshooting, agile leadership, and a product-driven approach to customer experience."
+      title="Supervisor first, support expert always"
+      description="My career blends frontline leadership, hands-on technical troubleshooting, and the coding chops to keep knowledge and automation sharp."
       align="center"
     />
-    <div className="grid gap-6 md:grid-cols-3">
+    <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
       {highlights.map((item, index) => (
         <motion.article
           key={item.title}

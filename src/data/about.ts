@@ -7,27 +7,27 @@ export interface JourneyItem {
 export const journey: JourneyItem[] = [
   {
     year: '2012 – 2018',
-    title: 'Customer care roots',
+    title: 'Call center foundations',
     description:
-      'Cut my teeth in customer support, discovering the power of empathy, clear expectations, and documentation that meets people where they are.'
+      'Learned the craft on the phones — practicing active listening, de-escalation, and documentation hygiene while supporting national programs.'
   },
   {
     year: '2019 – 2021',
     title: 'Leaning into technical troubleshooting',
     description:
-      'Began bridging hardware, software, and SaaS environments. Developed a reputation for translating engineering jargon into actionable steps for customers.'
+      'Bridged hardware, software, and SaaS environments, translating engineering language into confident next steps for customers and teammates.'
   },
   {
     year: '2021 – 2022',
-    title: 'Leadership in fast-moving contact centers',
+    title: 'Supervisor leadership in fast-moving centers',
     description:
-      'Led 25+ person remote teams, launching skill accelerators and feedback loops that lifted program KPIs while keeping retention high.'
+      'Led 25+ person remote teams, launching skill accelerators and feedback loops that lifted KPIs while protecting morale and retention.'
   },
   {
     year: '2023 – Present',
     title: 'The Roller Method',
     description:
-      'Pairing Agile practices with developer curiosity — architecting the D4ET bot, rewriting knowledge bases, and proving that clarity plus consistency drives loyalty.'
+      'Pairing Agile practices with developer curiosity — architecting the D4ET bot, rebuilding knowledge bases, and proving that clarity plus consistency drives loyalty.'
   }
 ];
 
@@ -39,7 +39,7 @@ export interface FunFact {
 
 export const funFacts: FunFact[] = [
   { label: 'Home base', value: 'Richmond, Indiana', icon: 'map-pin' },
-  { label: 'Certifications', value: 'Agile & Scrum Certified', icon: 'badge-check' },
-  { label: 'Tech passions', value: 'Python, Docker & automation', icon: 'cpu' },
+  { label: 'Leadership focus', value: 'Supervisor & coach for 25+ agents', icon: 'badge-check' },
+  { label: 'Tech passions', value: 'Python, TypeScript & automation', icon: 'cpu' },
   { label: 'Community build', value: 'Creator of the D4ET bot', icon: 'bot' }
 ];

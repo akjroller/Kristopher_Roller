@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Github, Linkedin, Mail, Send } from 'lucide-react';
+import { Github, Linkedin, Mail, Send, BriefcaseBusiness } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
 
 const formEndpoint = 'https://formspree.io/f/xqaejwzq';
@@ -17,7 +17,7 @@ const Contact = () => (
       <SectionHeader
         eyebrow="Let’s connect"
         title="Tell me about your next challenge"
-        description="Whether you’re scaling a support org, refining documentation, or exploring automation, I’d love to hear what you’re building."
+        description="Need a supervisor who can steady the floor, a technical expert to calm escalations, or a builder to automate the follow-up? I’d love to hear what you’re tackling."
       />
       <div className="grid gap-10 lg:grid-cols-[1.05fr,0.95fr]">
         <form action={formEndpoint} method="POST" className="card glass space-y-5 border-slate-800/70 bg-slate-900/70 p-8">
@@ -65,13 +65,27 @@ const Contact = () => (
               <Mail className="h-4 w-4" aria-hidden />
               akjroller@gmail.com
             </a>
-            <a href="https://www.linkedin.com/in/akjroller" target="_blank" rel="noreferrer" className="contact-link">
+            <a
+              href="https://www.linkedin.com/in/kristopher-roller-84775294/"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-link"
+            >
               <Linkedin className="h-4 w-4" aria-hidden />
-              linkedin.com/in/akjroller
+              linkedin.com/in/kristopher-roller-84775294
             </a>
             <a href="https://github.com/akjroller" target="_blank" rel="noreferrer" className="contact-link">
               <Github className="h-4 w-4" aria-hidden />
               github.com/akjroller
+            </a>
+            <a
+              href="https://profile.indeed.com/p/kristopherr-20y8qlr"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-link"
+            >
+              <BriefcaseBusiness className="h-4 w-4" aria-hidden />
+              Indeed profile
             </a>
           </div>
           <div className="flex flex-col items-center gap-3 rounded-2xl border border-slate-800/70 bg-slate-950/70 p-6">

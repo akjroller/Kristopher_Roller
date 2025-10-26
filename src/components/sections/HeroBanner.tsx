@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
 
 const stats = [
-  { label: 'Average handle time', value: '< 5 minutes' },
-  { label: 'Documentation refreshes', value: '60+ knowledge articles updated' },
-  { label: 'Community reach', value: 'D4ET bot serving 413k+ users' }
+  { label: 'Leadership impact', value: 'Guided 25+ remote agents' },
+  { label: 'Rapid resolution', value: '< 5 minute average handle time' },
+  { label: 'Builder reach', value: 'D4ET bot serving 413k+ users' }
 ];
 
 const fade = {
@@ -37,32 +38,68 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Kristopher Roller — Technical Support Professional &amp; Process Optimizer
+          Kristopher Roller — Supervisor, Technical Support Lead &amp; Builder
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          Delivering clarity, consistency, and continuous improvement — that&apos;s <span className="gradient-text">The Roller Method</span>.
+          Calm under pressure, coach in the trenches, and coder when teams need momentum — that&apos;s{' '}
+          <span className="gradient-text">The Roller Method</span>.
         </motion.h1>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          I translate complex customer challenges into reliable systems, empowering teams to respond faster, teach better, and build trust across every touchpoint.
+          I create structure and clarity for high-volume programs, mentor support talent with actionable playbooks, and ship
+          automation that keeps everyone ahead of the next escalation.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
-          <Link to="/resume" className="btn-primary">
+          <Link to="/experience" className="btn-primary">
+            Explore Experience
+          </Link>
+          <Link to="/resume" className="btn-secondary">
             View Resume
           </Link>
-          <Link to="/projects" className="btn-secondary">
-            See Projects
-          </Link>
+        </motion.div>
+        <motion.div className="flex flex-wrap items-center gap-3 text-sm text-slate-300" custom={4} variants={fade}>
+          <a
+            href="https://github.com/akjroller"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-800/70 bg-slate-950/60 px-4 py-2 transition hover:border-primary/70 hover:text-white"
+          >
+            <Github className="h-4 w-4" aria-hidden />
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kristopher-roller-84775294/"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-800/70 bg-slate-950/60 px-4 py-2 transition hover:border-primary/70 hover:text-white"
+          >
+            <Linkedin className="h-4 w-4" aria-hidden />
+            LinkedIn
+          </a>
+          <a
+            href="https://profile.indeed.com/p/kristopherr-20y8qlr"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-800/70 bg-slate-950/60 px-4 py-2 transition hover:border-primary/70 hover:text-white"
+          >
+            <BriefcaseBusiness className="h-4 w-4" aria-hidden />
+            Indeed
+          </a>
         </motion.div>
       </motion.div>
       <motion.div initial="hidden" animate="visible" className="card glass grid gap-4 p-8" variants={cardContainer}>
         {stats.map((stat, index) => (
-          <motion.div key={stat.label} custom={index} variants={fade} className="rounded-xl border border-slate-800/80 bg-slate-900/60 p-5">
+          <motion.div
+            key={stat.label}
+            custom={index}
+            variants={fade}
+            className="rounded-xl border border-slate-800/80 bg-slate-900/60 p-5"
+          >
             <p className="text-xs uppercase tracking-[0.28em] text-slate-500">{stat.label}</p>
             <p className="mt-2 text-xl font-semibold text-slate-50">{stat.value}</p>
           </motion.div>
         ))}
         <motion.p className="text-sm text-slate-400" custom={4} variants={fade}>
-          Trusted by leaders for high-stakes support, knowledge management, and community-driven development.
+          Trusted to steady busy contact centers, level up documentation, and build the tools that keep customers confident.
         </motion.p>
       </motion.div>
     </div>
