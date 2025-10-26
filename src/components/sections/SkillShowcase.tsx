@@ -29,15 +29,15 @@ const skillGroups = [
   {
     title: 'Supervisor leadership system',
     description:
-      'Run calm, metrics-driven teams with cadence planning, QA reviews, and coaching paths tailored to every agent.',
+      'Cadence planning, QA reviews, and coaching paths tailored to every agent — the operations habits I rely on week to week.',
     icon: ShieldCheck,
     tone: 'primary',
     items: ['Performance dashboards & standups', 'Escalation + crisis communication playbooks', 'Hiring, payroll & stakeholder updates']
   },
   {
-    title: 'Technical support excellence',
+    title: 'Technical support practice',
     description:
-      'Diagnose complex issues quickly while translating engineering language into clear, confident next steps.',
+      'I stay close to tickets and calls so documentation is grounded in real conversations and engineering triage.',
     icon: LifeBuoy,
     tone: 'primary',
     items: ['Security-sensitive escalations', 'Omnichannel troubleshooting (voice, chat, email)', '< 5 minute handle time consistency']
@@ -45,7 +45,7 @@ const skillGroups = [
   {
     title: 'Coding & automation toolkit',
     description:
-      'Build bots, analytics, and documentation pipelines that surface the right insight at the right moment.',
+      'Bots, analytics, and documentation pipelines emerge from gaps I notice while supervising — shipped to make the next incident easier.',
     icon: Code2,
     tone: 'primary',
     items: ['Python + TypeScript development', 'API orchestration & integrations', 'Automation that feeds knowledge bases']
@@ -76,9 +76,9 @@ const cardVariants = {
 const SkillShowcase = () => (
   <section className="section-container space-y-12">
     <SectionHeader
-      eyebrow="Signature strengths"
-      title="Supervisor-led support, supercharged by code"
-      description="Every engagement starts with leadership discipline, layers in technical support expertise, and finishes with tooling that keeps momentum going."
+      eyebrow="Skills in practice"
+      title="The mix of leadership, support, and code I rely on"
+      description="Think of this section as the legend for the rest of the site. Each grouping links to examples in the experience and project pages where the skills were put to work."
       align="center"
     />
     <div className="grid gap-10 xl:grid-cols-[1.05fr,0.95fr] xl:items-start">
@@ -93,9 +93,8 @@ const SkillShowcase = () => (
         <div className="pointer-events-none absolute bottom-[-35%] left-[-20%] h-72 w-72 rounded-full bg-emerald-400/10 blur-3xl" aria-hidden />
         <div className="relative space-y-8">
           <p className="max-w-xl text-lg text-slate-200">
-            I thrive at the intersection of human-centered support and technical systems. Whether it&apos;s restoring calm during a
-            launch, rebuilding documentation, or shipping automation that scales empathy, I create clarity and momentum for every
-            stakeholder involved.
+            The best way to understand me is to see how leadership, support, and engineering overlap in my day to day. I document
+            what I learn, pair it with automation where it helps, and keep teams informed with transparent metrics and rituals.
           </p>
           <ul className="grid gap-3 sm:grid-cols-2">
             {focusAreas.map((item) => (

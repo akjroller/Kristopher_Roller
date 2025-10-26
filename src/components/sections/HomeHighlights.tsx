@@ -4,25 +4,25 @@ import SectionHeader from '../common/SectionHeader';
 
 const highlights = [
   {
-    title: 'Supervisor-grade leadership',
+    title: 'Leadership in the queue',
     description:
-      'I run calm, metrics-driven contact center teams — blending coaching rhythms, QA loops, and stakeholder comms that keep programs ahead of targets.',
+      'I have run remote teams through peak seasons, 1:1 coaching, and performance reviews — the practical rhythms you would expect to see in an operations lead.',
     icon: UsersRound
   },
   {
-    title: 'Technical support mastery',
+    title: 'Hands-on technical support',
     description:
-      'From TurboTax escalations to hardware triage, I translate complex issues into empathetic, efficient resolutions backed by < 5 minute handle times.',
+      'From TurboTax escalations to hardware triage, I stay close to the work. My average handle time stays under five minutes because I document and share what works.',
     icon: LifeBuoy
   },
   {
     title: 'Builder & automation mindset',
     description:
-      'Python, APIs, and analytics are my toolkit for crafting bots and dashboards that surface the right insight exactly when teams need it.',
+      'Python, APIs, and analytics help me close gaps I notice while leading teams. The tools are grounded in what agents and customers ask for, not marketing copy.',
     icon: Code2
   },
   {
-    title: 'Call center fundamentals',
+    title: 'Call center foundations',
     description:
       'Years on the phones taught me patience, active listening, and how to protect the customer experience no matter the queue volume.',
     icon: PhoneCall
@@ -32,9 +32,9 @@ const highlights = [
 const HomeHighlights = () => (
   <section className="section-container space-y-12">
     <SectionHeader
-      eyebrow="Why teams partner with me"
-      title="Supervisor first, support expert always"
-      description="My career blends frontline leadership, hands-on technical troubleshooting, and the coding chops to keep knowledge and automation sharp."
+      eyebrow="Quick tour"
+      title="How this resume is organized"
+      description="This home page surfaces the themes you will see across the experience, project, and resume pages. Dive into any card to explore the underlying work."
       align="center"
     />
     <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">

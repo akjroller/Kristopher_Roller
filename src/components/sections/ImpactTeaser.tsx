@@ -5,9 +5,9 @@ const ImpactTeaser = () => (
   <section className="section-container grid gap-10 lg:grid-cols-[1.1fr,0.9fr] lg:items-center">
     <div className="space-y-6">
       <SectionHeader
-        eyebrow="Flagship initiative"
+        eyebrow="Project spotlight"
         title="Diablo 4 Events Tracker (D4ET)"
-        description="Supervisor calm meets engineering hustle: I architected and led a high-uptime Discord bot that now keeps 3,500+ communities in sync with in-game events."
+        description="A Discord bot that I architected, led, and still maintain. It is a good example of how I pair support experience with engineering curiosity to build something teams rely on."
       />
       <ul className="space-y-3 text-sm text-slate-300">
         <li className="card bg-slate-900/50 p-5 text-left">Delivered event notifications in &lt; 500ms using a distributed worker pattern and aggressive caching.</li>
@@ -16,7 +16,7 @@ const ImpactTeaser = () => (
       </ul>
       <div className="flex flex-wrap gap-4">
         <Link to="/projects" className="btn-primary">
-          Explore the build
+          See more projects
         </Link>
         <a
           href="https://github.com/akjroller"
@@ -35,7 +35,7 @@ const ImpactTeaser = () => (
           <span key={item} className="badge-chip">{item}</span>
         ))}
       </div>
-      <p className="text-sm text-slate-400">“Lead the humans, solve the issue, automate the win.”</p>
+      <p className="text-sm text-slate-400">I document the system choices, metrics, and community feedback for anyone who wants to dig deeper.</p>
     </div>
   </section>
 );

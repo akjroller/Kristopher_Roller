@@ -38,22 +38,21 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Kristopher Roller — Supervisor, Technical Support Lead &amp; Builder
+          Kristopher Roller · Supervisor · Technical Support Lead · Builder
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          Calm under pressure, coach in the trenches, and coder when teams need momentum — that&apos;s{' '}
-          <span className="gradient-text">The Roller Method</span>.
+          This is my working resume — a snapshot of how I lead people, solve issues, and build useful tools.
         </motion.h1>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          I create structure and clarity for high-volume programs, mentor support talent with actionable playbooks, and ship
-          automation that keeps everyone ahead of the next escalation.
+          Explore the roles I&apos;ve held, the projects I steward, and the skills I keep sharpening. Each section is meant to
+          feel like a conversation about how I work rather than a pitch for a product.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
           <Link to="/experience" className="btn-primary">
-            Explore Experience
+            Experience timeline
           </Link>
           <Link to="/resume" className="btn-secondary">
-            View Resume
+            Resume &amp; downloads
           </Link>
         </motion.div>
         <motion.div className="flex flex-wrap items-center gap-3 text-sm text-slate-300" custom={4} variants={fade}>
@@ -99,7 +98,7 @@ const HeroBanner = () => (
           </motion.div>
         ))}
         <motion.p className="text-sm text-slate-400" custom={4} variants={fade}>
-          Trusted to steady busy contact centers, level up documentation, and build the tools that keep customers confident.
+          The data points that matter to me: steady teams, quick answers, and tools that stay useful after hand-off.
         </motion.p>
       </motion.div>
     </div>
