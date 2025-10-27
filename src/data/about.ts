@@ -7,27 +7,27 @@ export interface JourneyItem {
 export const journey: JourneyItem[] = [
   {
     year: '2013 – 2021',
-    title: 'Customer support foundations',
+    title: 'Customer Support Foundations',
     description:
-      'Built deep empathy and troubleshooting instincts while serving customers across benefits and financial programs, often becoming the go-to resource for peers needing quick answers.'
+      'Built empathy, communication, and troubleshooting skills supporting customers across benefits and financial programs. Became the go-to resource for quick, accurate answers and dependable service.'
   },
   {
     year: '2021 – 2022',
-    title: 'Call center leadership',
+    title: 'Call Center Leadership',
     description:
-      'Advanced to team leader and supervisor at Conduent, guiding 25+ remote agents through hiring, coaching, QA, payroll, and performance delivery during high-volume seasons.'
+      'Promoted to Team Leader and later Supervisor at Conduent, guiding 25+ agents remotely through hiring, QA, scheduling, and performance management. Helped agents stay engaged, confident, and accountable.'
   },
   {
     year: '2023 – 2025',
-    title: 'Insurance & benefits expertise',
+    title: 'Insurance & Benefits Support',
     description:
-      'Supported NTT DATA policyholders, beneficiaries, and agents while handling 50–75 calls per day, mapping processes, and coordinating improvements with leadership.'
+      'Supported NTT DATA policyholders, beneficiaries, and agents with accuracy and professionalism. Consistently handled 50–75 calls per day while maintaining strong service and compliance metrics.'
   },
   {
     year: '2025 – Present',
-    title: 'Technical support & escalations',
+    title: 'Technical Support & Escalations',
     description:
-      'Serve enterprise clients as a technical service representative and resolution specialist, keeping AHT under five minutes, rewriting knowledge articles, and mentoring teammates through complex security and software issues.'
+      'Serving enterprise retail clients at Retail Imaging as a Technical Service Representative. Known for rapid response times, clear communication, and mentoring teammates through complex support issues.'
   }
 ];
 
@@ -38,8 +38,8 @@ export interface FunFact {
 }
 
 export const funFacts: FunFact[] = [
-  { label: 'Base of operations', value: 'Richmond, IN · Remote ready', icon: 'map-pin' },
-  { label: 'Support metrics', value: 'Average handle time consistently under 5 minutes', icon: 'badge-check' },
-  { label: 'Documentation impact', value: 'Dozens of knowledge base and process updates shipped', icon: 'cpu' },
-  { label: 'Automation proof', value: 'D4ET bot serving 413K+ users across 3,500+ servers', icon: 'bot' }
+  { label: 'Base of operations', value: 'Richmond, IN · Fully remote ready', icon: 'map-pin' },
+  { label: 'Core metric', value: 'Sub-five-minute average handle time (AHT)', icon: 'timer' },
+  { label: 'Team impact', value: 'Trained, coached, and supported 25+ agents through performance growth', icon: 'users' },
+  { label: 'Documentation strength', value: 'Known for rewriting and improving internal knowledge base content', icon: 'file-text' }
 ];

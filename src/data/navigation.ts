@@ -7,7 +7,7 @@ export const navigation: NavigationItem[] = [
   { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
   { label: 'Experience', path: '/experience' },
-  { label: 'Projects', path: '/projects' },
+  { label: 'Initiatives & Achievements', path: '/projects' },
   { label: 'Resume', path: '/resume' },
   { label: 'Contact', path: '/contact' }
 ];

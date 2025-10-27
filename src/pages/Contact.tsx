@@ -11,14 +11,14 @@ const Contact = () => (
       <title>Contact</title>
       <meta
         name="description"
-        content="Connect with Kristopher Roller about call center supervisor roles, technical support leadership, and enablement initiatives."
+        content="Connect with Kristopher Roller to strengthen customer support operations, remote teams, and documentation."
       />
     </Helmet>
     <section className="section-container space-y-12">
       <SectionHeader
         eyebrow="Let’s connect"
-        title="Tell me about your support or operations goals"
-        description="If you’re hiring for remote technical support leadership, escalations, or documentation excellence, share what success looks like — I’m ready to help."
+        title="Ready to improve your customer support operation?"
+        description="Whether you’re building a remote support team, refining workflows, or looking for a reliable leader to strengthen consistency — I’d love to help. Let’s connect to discuss your goals and how my experience aligns with your needs."
       />
       <div className="grid gap-10 lg:grid-cols-[1.05fr,0.95fr]">
         <form action={formEndpoint} method="POST" className="card glass space-y-5 border-slate-800/70 bg-slate-900/70 p-8">
@@ -94,7 +94,7 @@ const Contact = () => (
             </a>
             <div className="contact-link cursor-default">
               <MapPin className="h-4 w-4" aria-hidden />
-              Richmond, IN · Authorized to work in the US
+              Richmond, IN · Fully Remote · Authorized to work in the U.S.
             </div>
           </div>
           <div className="flex flex-col items-center gap-3 rounded-2xl border border-slate-800/70 bg-slate-950/70 p-6">
@@ -112,7 +112,7 @@ const Contact = () => (
     <PageBridge
       eyebrow="Prefer to explore first?"
       title="See my work in action before we chat"
-      description="These pages highlight the leadership experience, enablement projects, and resources that back up everything in this contact form."
+      description="These pages highlight the leadership experience, initiatives, and resources that back up everything in this contact form."
       links={[
         {
           label: 'Experience timeline',
@@ -120,9 +120,9 @@ const Contact = () => (
           description: 'Review how I keep teams steady, resolve escalations, and coach for excellence.'
         },
         {
-          label: 'Projects & automation',
+          label: 'Initiatives & achievements',
           to: '/projects',
-          description: 'Look at the bots and analytics that help teams stay ahead of issues.'
+          description: 'Explore the documentation and reporting improvements that support consistent service.'
         },
         {
           label: 'Resume & downloads',

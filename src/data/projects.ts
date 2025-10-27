@@ -18,17 +18,16 @@ export interface ProjectSummary {
 }
 
 export const featuredProject: ProjectSummary = {
-  title: 'Diablo 4 Events Tracker (D4ET)',
+  title: 'Knowledge Base Refresh',
   description:
-    'A high-uptime Discord bot delivering real-time Diablo 4 event alerts — built with the same rigor I apply to call center automation, documentation, and reliability.',
+    'Audited and updated 40+ internal articles and macros to improve accuracy, reduce handle times, and clarify complex procedures for agents and customers.',
   metrics: [
-    { label: 'Community reach', value: '413K+ users across 3,500+ servers' },
-    { label: 'Delivery speed', value: '<500ms alert dispatch with redundancy' },
-    { label: 'Team leadership', value: '5-person volunteer crew coordinated remotely' }
+    { label: 'Articles updated', value: '40+ resources rewritten or audited' },
+    { label: 'Handle time focus', value: 'Reduced confusion during 50–75 daily calls' },
+    { label: 'Team alignment', value: 'Coaching, QA, and change logs synced across channels' }
   ],
-  tech: ['Python 3', 'AWS', 'PostgreSQL Aurora', 'Redis', 'Discord API', 'CDN tooling'],
+  tech: ['Notion', 'Confluence', 'Zendesk', 'SharePoint', 'Excel', 'Power BI'],
   links: [
-    { label: 'View GitHub profile', href: 'https://github.com/akjroller' },
     { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' },
     { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
   ],
@@ -37,31 +36,17 @@ export const featuredProject: ProjectSummary = {
 
 export const secondaryProjects: ProjectSummary[] = [
   {
-    title: 'Technical Support Knowledge Refresh',
+    title: 'Supervisor Dashboard Implementation',
     description:
-      'Documentation rewrites, macro updates, and clarity checks that reduced handle time friction for TurboTax and insurance queues.',
+      'Created and maintained Excel and Power BI reporting dashboards to track AHT, QA, and adherence for daily coaching and performance meetings.',
     metrics: [
-      { label: 'Articles improved', value: '40+ knowledge assets rewritten or audited' },
-      { label: 'Accuracy gains', value: 'Escalation clarity improved through updated branching logic' }
+      { label: 'Visibility', value: 'Live dashboards for supervisors and agents' },
+      { label: 'Coaching support', value: 'Daily huddles guided by actionable metrics' }
     ],
-    tech: ['Notion', 'Confluence', 'Zendesk', 'SharePoint', 'Process mapping'],
+    tech: ['Power BI', 'Excel', 'SharePoint', 'Teams'],
     links: [
-      { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' },
-      { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' }
-    ]
-  },
-  {
-    title: 'Supervisor Command Center',
-    description:
-      'Power BI, Excel, and automation workflows that consolidate AHT, QA, adherence, and sentiment for daily huddles and escalation reviews.',
-    metrics: [
-      { label: 'Visibility', value: 'Real-time dashboards for leaders and agents' },
-      { label: 'Decisions accelerated', value: 'Daily standups informed by live metrics' }
-    ],
-    tech: ['Power BI', 'Excel', 'Python', 'SharePoint', 'Power Automate'],
-    links: [
-      { label: 'View reporting approach', href: 'https://github.com/akjroller' },
-      { label: 'Indeed profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
+      { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' },
+      { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
     ]
   }
 ];
