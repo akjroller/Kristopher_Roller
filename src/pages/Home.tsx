@@ -4,6 +4,7 @@ import HomeHighlights from '../components/sections/HomeHighlights';
 import ImpactTeaser from '../components/sections/ImpactTeaser';
 import ReadyCTA from '../components/sections/ReadyCTA';
 import SkillShowcase from '../components/sections/SkillShowcase';
+import LeadershipValues from '../components/sections/LeadershipValues';
 
 const Home = () => (
   <div className="space-y-12">
@@ -13,6 +14,7 @@ const Home = () => (
     <HeroBanner />
     <HomeHighlights />
     <SkillShowcase />
+    <LeadershipValues />
     <ImpactTeaser />
     <ReadyCTA />
   </div>
