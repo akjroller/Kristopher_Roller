@@ -22,9 +22,9 @@ export const featuredProject: ProjectSummary = {
   description:
     'A high-uptime Discord bot that keeps the Diablo 4 community in sync with world bosses, Helltide rotations, and legion events.',
   metrics: [
-    { label: 'Community reach', value: '413k+ users across 3,500+ servers' },
-    { label: 'Latency goal', value: '<500ms event delivery with caching + workers' },
-    { label: 'Team', value: 'Led a distributed 5-person development squad' }
+    { label: 'Community reach', value: 'Hundreds of thousands of Diablo 4 players' },
+    { label: 'Reliability', value: '<500ms event delivery with caching + workers' },
+    { label: 'Team leadership', value: 'Led a distributed squad shipping weekly improvements' }
   ],
   tech: ['Python 3', 'AWS Lambda + Aurora', 'Redis', 'Discord API', 'Docker', 'CDN'],
   links: [
@@ -39,10 +39,10 @@ export const secondaryProjects: ProjectSummary[] = [
   {
     title: 'The Roller Method Knowledge Base',
     description:
-      'Built a living documentation system that pairs service playbooks with analytics, reducing onboarding time for new agents by 35%.',
+      'Built a living documentation system that pairs service playbooks with analytics, giving new agents faster confidence on the floor.',
     metrics: [
-      { label: 'Documentation', value: '40+ articles with automatic changelog' },
-      { label: 'Stakeholders', value: 'Adopted by operations + QA teams' }
+      { label: 'Documentation', value: 'Comprehensive playbooks with automatic changelog' },
+      { label: 'Stakeholders', value: 'Adopted by operations, QA, and enablement teams' }
     ],
     tech: ['Notion API', 'Next.js', 'Vercel Cron', 'Supabase'],
     links: [
@@ -55,8 +55,8 @@ export const secondaryProjects: ProjectSummary[] = [
     description:
       'Python tooling that surfaces daily KPIs, trending issue types, and recommended documentation updates straight to Slack.',
     metrics: [
-      { label: 'Time saved', value: '3 hrs per week in manual reporting' },
-      { label: 'Alerts', value: 'Trending tags + backlog spikes flagged automatically' }
+      { label: 'Time saved', value: 'Hours of manual reporting replaced with automation' },
+      { label: 'Alerts', value: 'Trending tags and backlog spikes flagged automatically' }
     ],
     tech: ['Python', 'Pandas', 'Slack API', 'AWS EventBridge'],
     links: [

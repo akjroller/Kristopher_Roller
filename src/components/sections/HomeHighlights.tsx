@@ -6,25 +6,25 @@ const highlights = [
   {
     title: 'Leadership in the queue',
     description:
-      'I have run remote teams through peak seasons, 1:1 coaching, and performance reviews — the practical rhythms you would expect to see in an operations lead.',
+      'I guide remote teams through peak seasons with weekly coaching, scorecard reviews, and calm escalation management — the rhythms hiring managers expect from an operations lead.',
     icon: UsersRound
   },
   {
     title: 'Hands-on technical support',
     description:
-      'From TurboTax escalations to hardware triage, I stay close to the work. My average handle time stays under five minutes because I document and share what works.',
+      'From TurboTax escalations to hardware triage, I stay close to the queue. Average handle times stay under five minutes because I document, share, and automate what works.',
     icon: LifeBuoy
   },
   {
     title: 'Builder & automation mindset',
     description:
-      'Python, APIs, and analytics help me close gaps I notice while leading teams. The tools are grounded in what agents and customers ask for, not marketing copy.',
+      'Python, APIs, and analytics help me close gaps I notice while leading teams. Every build is grounded in what agents and customers actually ask for.',
     icon: Code2
   },
   {
     title: 'Call center foundations',
     description:
-      'Years on the phones taught me patience, active listening, and how to protect the customer experience no matter the queue volume.',
+      'Years on the phones built the patience, active listening, and customer-first decisions that still anchor my leadership style.',
     icon: PhoneCall
   }
 ];

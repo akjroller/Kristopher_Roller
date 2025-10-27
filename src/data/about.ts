@@ -9,7 +9,7 @@ export const journey: JourneyItem[] = [
     year: '2012 – 2018',
     title: 'Call center foundations',
     description:
-      'Learned the craft on the phones — practicing active listening, de-escalation, and documentation hygiene while supporting national programs.'
+      'Built the fundamentals in fast-paced contact centers — practicing active listening, de-escalation, and rigorous documentation while supporting national programs.'
   },
   {
     year: '2019 – 2021',
@@ -21,13 +21,13 @@ export const journey: JourneyItem[] = [
     year: '2021 – 2022',
     title: 'Supervisor leadership in fast-moving centers',
     description:
-      'Led 25+ person remote teams, launching skill accelerators and feedback loops that lifted KPIs while protecting morale and retention.'
+      'Led 25+ remote agents through peak seasons, pairing steady coaching with playbooks that lifted KPIs while protecting morale and retention.'
   },
   {
     year: '2023 – Present',
-    title: 'The Roller Method',
+    title: 'Automation-fueled enablement',
     description:
-      'Pairing Agile practices with developer curiosity — architecting the D4ET bot, rebuilding knowledge bases, and proving that clarity plus consistency drives loyalty.'
+      'Pairing agile habits with builder curiosity — architecting the D4ET bot, refreshing knowledge bases, and proving that clarity plus consistency drives loyalty.'
   }
 ];
 
