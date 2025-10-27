@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Github, Linkedin, Mail, Send, BriefcaseBusiness } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
+import PageBridge from '../components/common/PageBridge';
 
 const formEndpoint = 'https://formspree.io/f/xqaejwzq';
 
@@ -100,6 +101,28 @@ const Contact = () => (
         </aside>
       </div>
     </section>
+    <PageBridge
+      eyebrow="Prefer to explore first?"
+      title="See my work in action before we chat"
+      description="These pages highlight the leadership experience, automation projects, and resources that back up everything in this contact form."
+      links={[
+        {
+          label: 'Experience timeline',
+          to: '/experience',
+          description: 'Review how I keep teams steady, resolve escalations, and coach for excellence.'
+        },
+        {
+          label: 'Projects & automation',
+          to: '/projects',
+          description: 'Look at the bots and analytics that help teams stay ahead of issues.'
+        },
+        {
+          label: 'Resume & downloads',
+          to: '/resume',
+          description: 'Download the PDF or share quick highlights with your hiring team.'
+        }
+      ]}
+    />
   </div>
 );
 

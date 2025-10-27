@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { MapPin, BadgeCheck, Cpu, Bot } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
+import PageBridge from '../components/common/PageBridge';
 import { funFacts, journey } from '../data/about';
 
 const iconMap = {
@@ -67,6 +68,28 @@ const About = () => (
         })}
       </div>
     </section>
+    <PageBridge
+      eyebrow="Where to next"
+      title="Keep exploring the mix of leadership, support, and builds"
+      description="Each page goes deeper into how I guide teams, troubleshoot complex issues, and turn gaps into reliable automation."
+      links={[
+        {
+          label: 'Experience timeline',
+          to: '/experience',
+          description: 'See how supervisor leadership, technical support, and automation show up in real roles.'
+        },
+        {
+          label: 'Projects & automation',
+          to: '/projects',
+          description: 'Review the D4ET bot and supporting tools designed to keep communities informed.'
+        },
+        {
+          label: 'Resume & downloads',
+          to: '/resume',
+          description: 'Grab a printable resume plus quick highlights to share with your team.'
+        }
+      ]}
+    />
   </div>
 );
 

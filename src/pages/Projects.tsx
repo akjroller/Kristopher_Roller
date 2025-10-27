@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { ArrowUpRight } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
+import PageBridge from '../components/common/PageBridge';
 import { featuredProject, secondaryProjects } from '../data/projects';
 
 const Projects = () => (
@@ -111,6 +112,28 @@ const Projects = () => (
         ))}
       </div>
     </section>
+    <PageBridge
+      eyebrow="Next up"
+      title="See how the builds connect with the work"
+      description="These projects sit on top of the day-to-day leadership and support wins you’ll find elsewhere on the site."
+      links={[
+        {
+          label: 'Experience timeline',
+          to: '/experience',
+          description: 'Trace the roles where I led teams and spotted the gaps these tools now solve.'
+        },
+        {
+          label: 'Resume & downloads',
+          to: '/resume',
+          description: 'Share a concise overview of my leadership and automation impact with your stakeholders.'
+        },
+        {
+          label: 'Contact Kristopher',
+          to: '/contact',
+          description: 'Let’s discuss how similar tooling could support your agents or customers.'
+        }
+      ]}
+    />
   </div>
 );
 
