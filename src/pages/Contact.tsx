@@ -11,14 +11,14 @@ const Contact = () => (
       <title>Contact</title>
       <meta
         name="description"
-        content="Reach out to Kristopher Roller for technical support leadership, automation projects, or collaboration."
+        content="Connect with Kristopher Roller about call center supervisor roles, technical support leadership, and enablement initiatives."
       />
     </Helmet>
     <section className="section-container space-y-12">
       <SectionHeader
         eyebrow="Let’s connect"
-        title="Tell me about your next challenge"
-        description="Need a supervisor who can steady the floor, a technical expert to calm escalations, or a builder to automate the follow-up? I’d love to hear what you’re tackling."
+        title="Tell me about your support or operations goals"
+        description="Whether you need a call center supervisor, escalation lead, or enablement partner, I’d love to hear what outcomes you’re driving toward."
       />
       <div className="grid gap-10 lg:grid-cols-[1.05fr,0.95fr]">
         <form action={formEndpoint} method="POST" className="card glass space-y-5 border-slate-800/70 bg-slate-900/70 p-8">
@@ -59,7 +59,7 @@ const Contact = () => (
         </form>
         <aside className="card glass space-y-6 border-slate-800/70 bg-slate-900/70 p-8">
           <p className="text-sm text-slate-300">
-            Prefer a direct note? Reach out through any of the channels below or scan the QR code to jump straight to my resume.
+            Prefer a direct note? Reach out through any of the channels below or scan the QR code to share my resume with your team.
           </p>
           <div className="flex flex-col gap-4 text-sm text-slate-200">
             <a href="mailto:akjroller@gmail.com" className="contact-link">
@@ -104,7 +104,7 @@ const Contact = () => (
     <PageBridge
       eyebrow="Prefer to explore first?"
       title="See my work in action before we chat"
-      description="These pages highlight the leadership experience, automation projects, and resources that back up everything in this contact form."
+      description="These pages highlight the leadership experience, enablement projects, and resources that back up everything in this contact form."
       links={[
         {
           label: 'Experience timeline',

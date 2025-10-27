@@ -28,7 +28,7 @@ const Resume = () => {
         <SectionHeader
           eyebrow="Resume"
           title="Download &amp; preview"
-          description="A quick snapshot of my impact across technical support, leadership, and automation initiatives."
+          description="Get a concise view of my call center leadership, escalation expertise, and enablement results."
         />
         <div className="grid gap-10 lg:grid-cols-[1.1fr,0.9fr]">
           <div className="space-y-6">

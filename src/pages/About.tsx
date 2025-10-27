@@ -17,7 +17,7 @@ const About = () => (
       <title>About Kristopher Roller</title>
       <meta
         name="description"
-        content="Learn how Kristopher Roller evolved from customer support to technical leadership and community-focused development."
+        content="Explore Kristopher Roller’s journey from frontline advocate to call center supervisor, escalation expert, and enablement strategist."
       />
     </Helmet>
     <section className="section-container">
@@ -25,8 +25,8 @@ const About = () => (
         <div className="space-y-10">
           <SectionHeader
             eyebrow="My story"
-            title="Supervisor-led support with a builder’s heart"
-            description="Every stage of my career sharpened a different edge — call center empathy, technical depth, supervisor cadence, and now automation that amplifies it all."
+            title="Call center leadership shaped by frontline experience"
+            description="I grew up in the queue, stepped into leadership, and now blend operations, escalations, and enablement to keep teams confident."
           />
           <div className="space-y-6">
             {journey.map((entry) => (
@@ -54,7 +54,7 @@ const About = () => (
       </div>
     </section>
     <section className="section-container space-y-10">
-      <SectionHeader eyebrow="Fun facts" title="A few quick hits" description="The details that keep me grounded and inspired." />
+      <SectionHeader eyebrow="Fast facts" title="Details hiring managers ask about" description="Snapshot stats that highlight how I support remote teams." />
       <div className="grid gap-6 md:grid-cols-4">
         {funFacts.map((fact) => {
           const Icon = iconMap[fact.icon as keyof typeof iconMap];
@@ -68,25 +68,25 @@ const About = () => (
         })}
       </div>
     </section>
-    <PageBridge
-      eyebrow="Where to next"
-      title="Keep exploring the mix of leadership, support, and builds"
-      description="Each page goes deeper into how I guide teams, troubleshoot complex issues, and turn gaps into reliable automation."
-      links={[
-        {
-          label: 'Experience timeline',
-          to: '/experience',
-          description: 'See how supervisor leadership, technical support, and automation show up in real roles.'
-        },
-        {
-          label: 'Projects & automation',
-          to: '/projects',
-          description: 'Review the D4ET bot and supporting tools designed to keep communities informed.'
-        },
-        {
-          label: 'Resume & downloads',
-          to: '/resume',
-          description: 'Grab a printable resume plus quick highlights to share with your team.'
+      <PageBridge
+        eyebrow="Where to next"
+        title="See how leadership, support, and enablement connect"
+        description="Each page adds context for how I coach agents, resolve issues, and keep documentation and tools current."
+        links={[
+          {
+            label: 'Experience timeline',
+            to: '/experience',
+            description: 'See how supervisor leadership, technical support, and automation show up in real roles.'
+          },
+          {
+            label: 'Projects & automation',
+            to: '/projects',
+            description: 'Review the operations playbook refresh and automation programs built for remote teams.'
+          },
+          {
+            label: 'Resume & downloads',
+            to: '/resume',
+            description: 'Grab a printable resume plus quick highlights to share with your team.'
         }
       ]}
     />

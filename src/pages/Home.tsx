@@ -8,7 +8,7 @@ import SkillShowcase from '../components/sections/SkillShowcase';
 const Home = () => (
   <div className="space-y-12">
     <Helmet>
-      <title>Kristopher Roller — Supervisor Leadership, Technical Support &amp; Automation</title>
+      <title>Kristopher Roller — Call Center Supervisor &amp; Technical Support Leader</title>
     </Helmet>
     <HeroBanner />
     <HomeHighlights />

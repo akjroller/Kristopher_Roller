@@ -4,27 +4,27 @@ import SectionHeader from '../common/SectionHeader';
 
 const highlights = [
   {
-    title: 'Leadership in the queue',
+    title: 'Supervisor-led operations',
     description:
-      'I guide remote teams through peak seasons with weekly coaching, scorecard reviews, and calm escalation management — the rhythms hiring managers expect from an operations lead.',
+      'I keep remote teams aligned with daily huddles, scorecard reviews, and transparent coaching plans that protect KPIs and morale.',
     icon: UsersRound
   },
   {
-    title: 'Hands-on technical support',
+    title: 'Escalation & security readiness',
     description:
-      'From TurboTax escalations to hardware triage, I stay close to the queue. Average handle times stay under five minutes because I document, share, and automate what works.',
+      'Complex tax, benefits, and security cases come my way — I calm customers, coordinate specialists, and close loops with documented fixes.',
     icon: LifeBuoy
   },
   {
-    title: 'Builder & automation mindset',
+    title: 'Training & enablement mindset',
     description:
-      'Python, APIs, and analytics help me close gaps I notice while leading teams. Every build is grounded in what agents and customers actually ask for.',
+      'I pair supervisor coaching with refreshed knowledge bases, LMS updates, and QA calibrations so every agent knows what “great” looks like.',
     icon: Code2
   },
   {
-    title: 'Call center foundations',
+    title: 'Call center roots',
     description:
-      'Years on the phones built the patience, active listening, and customer-first decisions that still anchor my leadership style.',
+      'Years on the phones built the empathy, active listening, and process discipline that still guide every operational decision.',
     icon: PhoneCall
   }
 ];
@@ -32,9 +32,9 @@ const highlights = [
 const HomeHighlights = () => (
   <section className="section-container space-y-12">
     <SectionHeader
-      eyebrow="Quick tour"
-      title="How this resume is organized"
-      description="This home page surfaces the themes you will see across the experience, project, and resume pages. Dive into any card to explore the underlying work."
+      eyebrow="Supervisor snapshot"
+      title="The four pillars I bring to every program"
+      description="Every story on this site ladders up to these themes — operations leadership, escalation mastery, enablement excellence, and the frontline empathy that started it all."
       align="center"
     />
     <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">

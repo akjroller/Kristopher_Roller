@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
 
 const stats = [
-  { label: 'Leadership impact', value: 'Led and coached 25+ remote agents' },
-  { label: 'Rapid resolution', value: 'Sub-five-minute average handle time' },
-  { label: 'Community tooling', value: 'D4ET bot supporting thousands of players' }
+  { label: 'Leadership impact', value: 'Supervisor for 25+ remote agents' },
+  { label: 'Escalation success', value: '< 5 minute handle time on complex cases' },
+  { label: 'Enablement wins', value: 'Knowledge refreshes and training paths launched' }
 ];
 
 const fade = {
@@ -38,14 +38,13 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Kristopher Roller · Technical Support Leader · Supervisor · Builder
+          Kristopher Roller · Call Center Supervisor · Technical Support Leader · Enablement Partner
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          A working resume that shows how I steady teams, solve issues, and build useful tools.
+          Remote operations leader who steadies support teams, protects KPIs, and turns insights into action.
         </motion.h1>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          Explore the roles I&apos;ve held, the projects I steward, and the skills I keep sharpening. Every section is grounded
-          in hands-on leadership and the enablement habits I bring to modern support teams.
+          Explore how I combine supervisor coaching, escalation expertise, and documentation strategy to keep call center programs calm, compliant, and customer-obsessed. Every section of this interactive resume ties back to leading people and serving customers well.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
           <Link to="/experience" className="btn-primary">
@@ -98,7 +97,7 @@ const HeroBanner = () => (
           </motion.div>
         ))}
         <motion.p className="text-sm text-slate-400" custom={4} variants={fade}>
-          The data points that matter to me: steady teams, quick answers, and tools that stay useful after hand-off.
+          These are the metrics I guard daily — stable teams, quick escalations, and enablement that makes the next call easier.
         </motion.p>
       </motion.div>
     </div>
