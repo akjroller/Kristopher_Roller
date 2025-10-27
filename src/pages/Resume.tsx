@@ -33,7 +33,7 @@ const Resume = () => {
           title="Overview of my experience"
           description="A quick look at my core strengths and professional focus areas. For full details, download the PDF version below."
         />
-        <div className="grid gap-10 lg:grid-cols-[1.1fr,0.9fr]">
+        <div className="grid gap-10 lg:grid-cols-[1fr,1.35fr]">
           <div className="space-y-6">
             <div className="grid gap-4">
               {resumeHighlights.map((highlight) => (
@@ -54,7 +54,11 @@ const Resume = () => {
             </div>
           </div>
           <div className="card glass overflow-hidden border-slate-800/70 bg-slate-900/80">
-            <object data={resumeUrl} type="application/pdf" className="h-[70vh] w-full">
+            <object
+              data={resumeUrl}
+              type="application/pdf"
+              className="h-[80vh] min-h-[520px] w-full lg:h-[90vh] lg:min-h-[640px]"
+            >
               <p className="p-6 text-sm text-slate-300">
                 PDF preview unavailable.{' '}
                 <a href={resumeUrl} className="text-primary underline">
