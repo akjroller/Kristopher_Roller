@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import SectionHeader from '../components/common/SectionHeader';
+import PageBridge from '../components/common/PageBridge';
 import { ExperienceCategory, experiences } from '../data/experience';
 
 const filters: ExperienceCategory[] = [
@@ -76,6 +77,28 @@ const Experience = () => {
           ))}
         </div>
       </section>
+      <PageBridge
+        eyebrow="Connect the dots"
+        title="Experience that feeds every other page"
+        description="Compare these roles with the automation builds and resume highlights to see the throughline in how I work."
+        links={[
+          {
+            label: 'Projects & automation',
+            to: '/projects',
+            description: 'Explore the D4ET bot and supporting tools that came out of leading support operations.'
+          },
+          {
+            label: 'Resume & downloads',
+            to: '/resume',
+            description: 'Get a condensed overview plus a PDF you can share with your stakeholders.'
+          },
+          {
+            label: 'Contact Kristopher',
+            to: '/contact',
+            description: 'Start a conversation about how these experiences translate to your team’s needs.'
+          }
+        ]}
+      />
     </div>
   );
 };

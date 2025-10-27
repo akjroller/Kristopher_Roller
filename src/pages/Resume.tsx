@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { Download, Copy } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
+import PageBridge from '../components/common/PageBridge';
 import { resumeHighlights, resumeUrl } from '../data/resume';
 
 const Resume = () => {
@@ -61,6 +62,28 @@ const Resume = () => {
           </div>
         </div>
       </section>
+      <PageBridge
+        eyebrow="Want more context?"
+        title="Match the resume to detailed stories"
+        description="Use these pages to dive into the supporting details behind every bullet on the resume."
+        links={[
+          {
+            label: 'Experience timeline',
+            to: '/experience',
+            description: 'Read how I lead teams, maintain top-tier support metrics, and build trust with stakeholders.'
+          },
+          {
+            label: 'Projects & automation',
+            to: '/projects',
+            description: 'See the tools and bots that extend my leadership impact beyond the queue.'
+          },
+          {
+            label: 'Contact Kristopher',
+            to: '/contact',
+            description: 'Reach out directly if you’d like a tailored walkthrough or have a role in mind.'
+          }
+        ]}
+      />
     </div>
   );
 };
