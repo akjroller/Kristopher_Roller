@@ -6,25 +6,25 @@ const highlights = [
   {
     title: 'Supervisor-led operations',
     description:
-      'I keep remote teams aligned with daily huddles, scorecard reviews, and transparent coaching plans that protect KPIs and morale.',
+      'I keep remote teams aligned with daily huddles, scorecard reviews, and transparent coaching plans that protect KPIs, morale, and client confidence.',
     icon: UsersRound
   },
   {
     title: 'Escalation & security readiness',
     description:
-      'Complex tax, benefits, and security cases come my way — I calm customers, coordinate specialists, and close loops with documented fixes.',
+      'Complex tax, benefits, and security cases come my way — I calm customers, coordinate specialists, and ensure agents know exactly how to resolve the next one.',
     icon: LifeBuoy
   },
   {
     title: 'Training & enablement mindset',
     description:
-      'I pair supervisor coaching with refreshed knowledge bases, LMS updates, and QA calibrations so every agent knows what “great” looks like.',
+      'I pair supervisor coaching with refreshed knowledge bases, LMS updates, and QA calibrations so every agent knows what “great” looks like and leaders have proof of progress.',
     icon: Code2
   },
   {
     title: 'Call center roots',
     description:
-      'Years on the phones built the empathy, active listening, and process discipline that still guide every operational decision.',
+      'Years on the phones built the empathy, active listening, and process discipline that still guide every operational decision — my agent experience fuels better leadership.',
     icon: PhoneCall
   }
 ];

@@ -27,7 +27,7 @@ export const journey: JourneyItem[] = [
     year: '2023 – Present',
     title: 'Remote technical support leadership',
     description:
-      'Lead complex escalations, mentor peers, and modernize knowledge bases while piloting automation that keeps remote call center teams confident and compliant.'
+      'Direct complex escalations, mentor peers, and modernize knowledge bases while piloting automation that keeps remote call center teams confident, informed, and ready for the next customer.'
   }
 ];
 
