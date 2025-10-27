@@ -6,4 +6,4 @@ export const resumeHighlights = [
   'Recognized for mentoring peers and contributing to team success through collaboration.'
 ];
 
-export const resumeUrl = '/resume.pdf';
+export const resumeUrl = '/Resume.pdf';
