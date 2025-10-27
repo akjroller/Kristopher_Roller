@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Github, Linkedin, Mail, Send, BriefcaseBusiness } from 'lucide-react';
+import { Github, Linkedin, Mail, Send, BriefcaseBusiness, Phone, MapPin } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
 import PageBridge from '../components/common/PageBridge';
 
@@ -18,7 +18,7 @@ const Contact = () => (
       <SectionHeader
         eyebrow="Let’s connect"
         title="Tell me about your support or operations goals"
-        description="Whether you need a call center supervisor, escalation lead, or enablement partner, I’d love to hear what outcomes you’re driving toward."
+        description="If you’re hiring for remote technical support leadership, escalations, or documentation excellence, share what success looks like — I’m ready to help."
       />
       <div className="grid gap-10 lg:grid-cols-[1.05fr,0.95fr]">
         <form action={formEndpoint} method="POST" className="card glass space-y-5 border-slate-800/70 bg-slate-900/70 p-8">
@@ -66,6 +66,10 @@ const Contact = () => (
               <Mail className="h-4 w-4" aria-hidden />
               akjroller@gmail.com
             </a>
+            <a href="tel:17655805549" className="contact-link">
+              <Phone className="h-4 w-4" aria-hidden />
+              (765) 580-5549
+            </a>
             <a
               href="https://www.linkedin.com/in/kristopher-roller-84775294/"
               target="_blank"
@@ -88,6 +92,10 @@ const Contact = () => (
               <BriefcaseBusiness className="h-4 w-4" aria-hidden />
               Indeed profile
             </a>
+            <div className="contact-link cursor-default">
+              <MapPin className="h-4 w-4" aria-hidden />
+              Richmond, IN · Authorized to work in the US
+            </div>
           </div>
           <div className="flex flex-col items-center gap-3 rounded-2xl border border-slate-800/70 bg-slate-950/70 p-6">
             <img

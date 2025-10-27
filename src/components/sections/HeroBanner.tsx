@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
 
 const stats = [
-  { label: 'Leadership impact', value: 'Supervisor for 25+ remote agents' },
-  { label: 'Escalation success', value: '< 5 minute handle time on complex cases' },
-  { label: 'Enablement wins', value: 'Knowledge refreshes and training paths launched' }
+  { label: 'Average handle time', value: '< 5 minutes on complex escalations' },
+  { label: 'Daily case volume', value: '50–75 technical support contacts' },
+  { label: 'Knowledge impact', value: '40+ support articles and macros refreshed' }
 ];
 
 const fade = {
@@ -38,13 +38,13 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Kristopher Roller · Call Center Supervisor · Technical Support Leader · Enablement Partner
+          Kristopher Roller · Technical Support & Remote Operations Leader
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          Remote operations leader steering call center teams with a frontline agent’s instincts.
+          Remote support expert keeping teams calm, customers confident, and documentation current.
         </motion.h1>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          Explore how I combine supervisor coaching, escalation expertise, and documentation strategy to keep call center programs calm, compliant, and customer-obsessed. Years on the phones give me the credibility to coach from experience while keeping every agent aligned to the plan.
+          I blend frontline experience with supervisor leadership to troubleshoot complex issues, maintain top-tier AHT/AWT, and mentor teammates through fast-paced escalations. Process improvements and knowledge refreshes are part of my daily rhythm so every customer — and every agent — gets timely, accurate answers.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
           <Link to="/experience" className="btn-primary">
@@ -97,7 +97,7 @@ const HeroBanner = () => (
           </motion.div>
         ))}
         <motion.p className="text-sm text-slate-400" custom={4} variants={fade}>
-          These are the metrics I guard daily — stable teams, quick escalations, and enablement that makes the next call easier.
+          These metrics reflect the resume below — responsive support, disciplined documentation, and leadership that keeps remote teams performing.
         </motion.p>
       </motion.div>
     </div>

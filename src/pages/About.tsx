@@ -25,8 +25,8 @@ const About = () => (
         <div className="space-y-10">
           <SectionHeader
             eyebrow="My story"
-            title="Call center leadership shaped by frontline experience"
-            description="I grew up in the queue, stepped into leadership, and now blend operations, escalations, and enablement to keep teams confident."
+            title="Technical support leadership shaped by frontline experience"
+            description="I started as a customer advocate, stepped into supervisor roles, and now pair remote operations, escalations, and documentation to keep teams confident."
           />
           <div className="space-y-6">
             {journey.map((entry) => (
@@ -54,7 +54,7 @@ const About = () => (
       </div>
     </section>
     <section className="section-container space-y-10">
-      <SectionHeader eyebrow="Fast facts" title="Details hiring managers ask about" description="Snapshot stats that highlight how I support remote teams." />
+      <SectionHeader eyebrow="Fast facts" title="Details hiring managers ask about" description="Snapshot stats that show how I support remote customers and the teams behind them." />
       <div className="grid gap-6 md:grid-cols-4">
         {funFacts.map((fact) => {
           const Icon = iconMap[fact.icon as keyof typeof iconMap];

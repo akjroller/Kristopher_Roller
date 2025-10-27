@@ -28,7 +28,7 @@ const Resume = () => {
         <SectionHeader
           eyebrow="Resume"
           title="Download &amp; preview"
-          description="Get a concise view of my call center leadership, escalation expertise, and enablement results."
+          description="Review my technical support experience, remote operations leadership, and documentation improvements in one place."
         />
         <div className="grid gap-10 lg:grid-cols-[1.1fr,0.9fr]">
           <div className="space-y-6">
@@ -65,7 +65,7 @@ const Resume = () => {
       <PageBridge
         eyebrow="Want more context?"
         title="Match the resume to detailed stories"
-        description="Use these pages to dive into the supporting details behind every bullet on the resume."
+        description="Use these pages to explore the stories, projects, and contact details behind every bullet on the resume."
         links={[
           {
             label: 'Experience timeline',

@@ -6,28 +6,28 @@ export interface JourneyItem {
 
 export const journey: JourneyItem[] = [
   {
-    year: '2013 – 2020',
-    title: 'Customer-first foundations',
+    year: '2013 – 2021',
+    title: 'Customer support foundations',
     description:
-      'Grew from frontline advocate to informal floor support, mastering empathy, compliance, and clear documentation while serving national customer programs.'
-  },
-  {
-    year: '2021',
-    title: 'Stepping into team leadership',
-    description:
-      'Moved from top-performing agent to team lead, coordinating updates, coaching sessions, and queue coverage that kept KPIs healthy during seasonal surges.'
+      'Built deep empathy and troubleshooting instincts while serving customers across benefits and financial programs, often becoming the go-to resource for peers needing quick answers.'
   },
   {
     year: '2021 – 2022',
-    title: 'Call center supervisor leadership',
+    title: 'Call center leadership',
     description:
-      'Owned performance management for 25+ agents — hiring, scheduling, quality calibration, and daily operations — while stabilizing service for a national benefits program.'
+      'Advanced to team leader and supervisor at Conduent, guiding 25+ remote agents through hiring, coaching, QA, payroll, and performance delivery during high-volume seasons.'
   },
   {
-    year: '2023 – Present',
-    title: 'Remote technical support leadership',
+    year: '2023 – 2025',
+    title: 'Insurance & benefits expertise',
     description:
-      'Direct complex escalations, mentor peers, and modernize knowledge bases while piloting automation that keeps remote call center teams confident, informed, and ready for the next customer.'
+      'Supported NTT DATA policyholders, beneficiaries, and agents while handling 50–75 calls per day, mapping processes, and coordinating improvements with leadership.'
+  },
+  {
+    year: '2025 – Present',
+    title: 'Technical support & escalations',
+    description:
+      'Serve enterprise clients as a technical service representative and resolution specialist, keeping AHT under five minutes, rewriting knowledge articles, and mentoring teammates through complex security and software issues.'
   }
 ];
 
@@ -38,8 +38,8 @@ export interface FunFact {
 }
 
 export const funFacts: FunFact[] = [
-  { label: 'Remote HQ', value: 'Richmond, Indiana', icon: 'map-pin' },
-  { label: 'Team size led', value: '25+ agents across three queues', icon: 'badge-check' },
-  { label: 'Enablement toolkit', value: 'Knowledge ops, LMS content, QA rituals', icon: 'cpu' },
-  { label: 'Automation win', value: 'D4ET bot powering 3,500+ servers', icon: 'bot' }
+  { label: 'Base of operations', value: 'Richmond, IN · Remote ready', icon: 'map-pin' },
+  { label: 'Support metrics', value: 'Average handle time consistently under 5 minutes', icon: 'badge-check' },
+  { label: 'Documentation impact', value: 'Dozens of knowledge base and process updates shipped', icon: 'cpu' },
+  { label: 'Automation proof', value: 'D4ET bot serving 413K+ users across 3,500+ servers', icon: 'bot' }
 ];

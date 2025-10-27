@@ -12,7 +12,7 @@ const filters: ExperienceCategory[] = [
 ];
 
 const Experience = () => {
-  const [activeFilter, setActiveFilter] = useState<ExperienceCategory>('Supervisor Leadership');
+  const [activeFilter, setActiveFilter] = useState<ExperienceCategory>('Technical Support');
 
   const filtered = useMemo(
     () => experiences.filter((item) => item.category === activeFilter),
@@ -32,7 +32,7 @@ const Experience = () => {
         <SectionHeader
           eyebrow="Experience"
           title="Where I’ve delivered impact"
-          description="Dive into the roles where I led supervisors, calmed escalations, refreshed knowledge, and built tools that keep call center operations moving."
+          description="Explore the roles where I resolved complex customer issues, led remote teams, refreshed documentation, and built automations that support high-volume operations."
         />
         <div className="flex flex-wrap gap-3">
           {filters.map((filter) => (
