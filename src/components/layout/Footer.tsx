@@ -1,20 +1,22 @@
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
+import { Linkedin, BriefcaseBusiness, Mail, FileText } from 'lucide-react';
 import { navigation } from '../../data/navigation';
+import { resumeUrl } from '../../data/resume';
 
 const socials = [
-  { label: 'GitHub', href: 'https://github.com/akjroller', icon: Github },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/', icon: Linkedin },
-  { label: 'Indeed', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr', icon: BriefcaseBusiness }
+  { label: 'Indeed', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr', icon: BriefcaseBusiness },
+  { label: 'Email', href: 'mailto:akjroller@gmail.com', icon: Mail },
+  { label: 'Résumé PDF', href: resumeUrl, icon: FileText }
 ];
 
 const Footer = () => (
   <footer className="border-t border-slate-800/60 bg-slate-950/80">
-    <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-12 text-sm text-slate-400 md:flex-row md:items-center md:justify-between md:px-10">
+    <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-12 text-sm text-slate-400 md:flex-row md:items-center md:justify-between md:px-12">
       <div className="space-y-1">
         <p className="text-xs uppercase tracking-[0.35em] text-slate-500">The Roller Method</p>
         <p className="text-sm text-slate-400">
-          © {new Date().getFullYear()} Kristopher Roller. Supervisor-led support, technical mastery, and code that scales confidence.
+          © {new Date().getFullYear()} Kristopher Roller. Supervisor-led support, documentation that empowers teams, and service that builds confidence.
         </p>
       </div>
       <div className="flex flex-wrap items-center gap-4 text-xs uppercase tracking-[0.18em] text-slate-500">

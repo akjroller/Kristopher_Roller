@@ -4,10 +4,10 @@ export interface NavigationItem {
 }
 
 export const navigation: NavigationItem[] = [
-  { label: 'Home', path: '/' },
-  { label: 'About', path: '/about' },
+  { label: 'Overview', path: '/' },
+  { label: 'My Story', path: '/about' },
   { label: 'Experience', path: '/experience' },
-  { label: 'Initiatives & Achievements', path: '/projects' },
-  { label: 'Resume', path: '/resume' },
-  { label: 'Contact', path: '/contact' }
+  { label: 'Proof & Initiatives', path: '/projects' },
+  { label: 'Résumé & Downloads', path: '/resume' },
+  { label: 'Connect', path: '/contact' }
 ];

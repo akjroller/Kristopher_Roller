@@ -7,7 +7,7 @@ import { featuredProject, secondaryProjects } from '../data/projects';
 const Projects = () => (
   <div className="space-y-16">
     <Helmet>
-      <title>Initiatives &amp; Achievements</title>
+      <title>Proof &amp; Initiatives</title>
       <meta
         name="description"
         content="Explore Kristopher Roller’s initiatives that improved documentation clarity, reporting visibility, and team performance."
@@ -15,8 +15,8 @@ const Projects = () => (
     </Helmet>
     <section className="section-container space-y-12">
       <SectionHeader
-        eyebrow="Initiatives &amp; Achievements"
-        title="Projects that improved clarity and team performance"
+        eyebrow="Proof &amp; Initiatives"
+        title="Initiatives that improved clarity and team performance"
         description="I’ve led and contributed to initiatives that strengthened team knowledge, improved documentation accuracy, and enhanced service consistency."
       />
       <div className="grid gap-10 lg:grid-cols-[1.05fr,0.95fr] lg:items-center">
@@ -70,7 +70,7 @@ const Projects = () => (
     </section>
     <section className="section-container space-y-10">
       <SectionHeader
-        eyebrow="Additional initiatives"
+        eyebrow="Additional proof points"
         title="More ways I support teams"
         description="Each achievement focuses on making it easier for agents and leaders to deliver great service."
       />
@@ -125,7 +125,7 @@ const Projects = () => (
           description: 'Trace the roles where I led teams and spotted the gaps these initiatives now solve.'
         },
         {
-          label: 'Resume & downloads',
+          label: 'Résumé & downloads',
           to: '/resume',
           description: 'Share a concise overview of my leadership and support impact with your stakeholders.'
         },

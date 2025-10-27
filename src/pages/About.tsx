@@ -26,7 +26,7 @@ const About = () => (
           <SectionHeader
             eyebrow="My story"
             title="Leadership shaped by frontline experience"
-            description="My career began on the phones — helping customers with complex account issues and learning the power of patience, communication, and precision. Over time, I moved into team leadership, where I discovered my passion for coaching, performance improvement, and helping others succeed. Today, I combine technical support expertise with people-first leadership to deliver consistent, high-quality service across remote operations."
+            description="I began on the phones solving complex benefits questions, quickly becoming the teammate others shadowed for calm coaching. That frontline foundation led to call center leadership roles where I learned how to mentor 25+ agents, drive KPIs, and keep customers informed under pressure. Today I blend that experience with process improvement — rewriting playbooks, guiding escalations, and helping teams deliver confident customer care."
           />
           <div className="space-y-6">
             {journey.map((entry) => (
@@ -83,12 +83,12 @@ const About = () => (
           description: 'Review how frontline insights and leadership decisions translate into measurable results.'
         },
         {
-          label: 'Initiatives & achievements',
+          label: 'Proof & initiatives',
           to: '/projects',
           description: 'See the documentation and reporting improvements that keep teams aligned.'
         },
         {
-          label: 'Resume & downloads',
+          label: 'Résumé & downloads',
           to: '/resume',
           description: 'Share a concise overview of my skills, strengths, and service focus.'
         }
