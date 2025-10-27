@@ -18,6 +18,8 @@ const Resume = () => {
     }
   };
 
+  const pdfPreviewUrl = `${resumeUrl}#view=FitH&toolbar=0&navpanes=0`;
+
   return (
     <div className="space-y-16">
       <Helmet>
@@ -54,18 +56,18 @@ const Resume = () => {
             </div>
           </div>
           <div className="card glass overflow-hidden border-slate-800/70 bg-slate-900/80">
-            <object
-              data={resumeUrl}
-              type="application/pdf"
+            <iframe
+              src={pdfPreviewUrl}
+              title="Preview of Kristopher Roller's resume"
               className="h-[80vh] min-h-[520px] w-full lg:h-[90vh] lg:min-h-[640px]"
-            >
-              <p className="p-6 text-sm text-slate-300">
-                PDF preview unavailable.{' '}
-                <a href={resumeUrl} className="text-primary underline">
-                  Download the resume instead.
-                </a>
-              </p>
-            </object>
+              loading="lazy"
+            />
+            <div className="border-t border-slate-800/70 bg-slate-900/90 p-4 text-center text-xs text-slate-400">
+              Having trouble with the inline preview?{' '}
+              <a href={resumeUrl} className="text-primary underline">
+                Download the resume instead.
+              </a>
+            </div>
           </div>
         </div>
       </section>
