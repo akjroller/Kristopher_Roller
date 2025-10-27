@@ -10,7 +10,7 @@ const Projects = () => (
       <title>Projects</title>
       <meta
         name="description"
-        content="Operations, enablement, and automation initiatives led by Kristopher Roller to support remote call center teams."
+        content="Technical support automation, documentation refreshes, and reporting systems led by Kristopher Roller for high-volume remote teams."
       />
     </Helmet>
     <section className="section-container space-y-12">
@@ -70,7 +70,7 @@ const Projects = () => (
       <SectionHeader
         eyebrow="More builds"
         title="Supporting automations and enablement projects"
-        description="A sample of systems and tooling I’ve created to bring visibility, precision, and focus to support operations."
+        description="Systems that prove how I translate frontline gaps into better knowledge, reporting, and customer experiences."
       />
       <div className="grid gap-6 lg:grid-cols-2">
         {secondaryProjects.map((project) => (
@@ -115,7 +115,7 @@ const Projects = () => (
     <PageBridge
       eyebrow="Next up"
       title="See how the builds connect with the work"
-      description="These projects sit on top of the day-to-day leadership and support wins you’ll find elsewhere on the site."
+      description="These projects sit on top of the day-to-day leadership and technical support wins you’ll find elsewhere on the site."
       links={[
         {
           label: 'Experience timeline',

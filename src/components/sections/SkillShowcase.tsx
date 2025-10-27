@@ -3,15 +3,15 @@ import { ShieldCheck, LifeBuoy, Code2, PhoneCall } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const focusAreas = [
-  'Supervisor operating rhythms built around huddles, 1:1s, QA, and scorecards',
-  'Escalation and security triage that keeps tax and benefits customers protected',
-  'Enablement and automation that refresh knowledge bases before issues repeat'
+  'Remote call center leadership grounded in huddles, 1:1s, QA reviews, and scorecards',
+  'Technical troubleshooting for tax, insurance, and retail platforms across phone, chat, email, and video',
+  'Knowledge base rewrites and automation that keep documentation, macros, and alerts accurate'
 ];
 
 const impactStats = [
-  { label: 'Agents coached', value: '25+ across remote queues' },
-  { label: 'Average handle time', value: '< 5 minutes on escalations' },
-  { label: 'Training assets refreshed', value: 'Dozens of living documents' }
+  { label: 'Average handle time', value: '< 5 minutes sustained' },
+  { label: 'Daily cases supported', value: '50–75 omnichannel contacts' },
+  { label: 'Knowledge assets updated', value: '40+ refreshed articles & macros' }
 ];
 
 const toolset = [
@@ -19,8 +19,8 @@ const toolset = [
   'Salesforce',
   'Five9',
   'Nice CXone',
-  'Notion',
-  'Confluence',
+  'Notion & Confluence',
+  'SharePoint',
   'Python',
   'Power BI',
   'Slack & Teams automation',
@@ -31,34 +31,50 @@ const skillGroups = [
   {
     title: 'Supervisor leadership system',
     description:
-      'Cadence planning, QA reviews, and action plans tailored to every agent — the operations habits that keep teams calm and consistent.',
+      'Performance management, scheduling, payroll, and QA cadences tailored to each agent — keeping distributed teams aligned.',
     icon: ShieldCheck,
     tone: 'primary',
-    items: ['Performance dashboards & standups', 'Escalation and crisis communication playbooks', 'Hiring, payroll, and stakeholder updates']
+    items: [
+      'Daily huddles, scorecards, and standups',
+      'Escalation response and crisis communication playbooks',
+      'Hiring, payroll, scheduling, and stakeholder reporting'
+    ]
   },
   {
     title: 'Technical support practice',
     description:
-      'Hands-on with the queue so troubleshooting steps, documentation, and engineering escalations stay grounded in real conversations.',
+      'Hands-on troubleshooting across TurboTax, insurance, and retail platforms with swift escalations and thorough documentation.',
     icon: LifeBuoy,
     tone: 'primary',
-    items: ['Security-sensitive escalations', 'Omnichannel troubleshooting (voice, chat, email)', '< 5 minute handle time consistency']
+    items: [
+      'Security-sensitive verification and fraud prevention',
+      'Omnichannel troubleshooting (voice, chat, email, video)',
+      'AHT/AWT targets maintained under five minutes'
+    ]
   },
   {
     title: 'Enablement & automation toolkit',
     description:
-      'Bots, analytics, and documentation pipelines emerge from frontline gaps — shipped to make the next incident easier for agents and customers.',
+      'Automation, documentation refreshes, and analytics built from frontline insights so the next customer gets faster answers.',
     icon: Code2,
     tone: 'primary',
-    items: ['Python and workflow automation', 'API orchestration and integrations', 'Automations that feed knowledge bases and reports']
+    items: [
+      'Python automation powering alerts and reporting',
+      'API orchestration, integrations, and task queues',
+      'Knowledge base, macro, and LMS content maintenance'
+    ]
   },
   {
     title: 'Call center foundations',
     description:
-      'Grounded in years on the phones — empathy, de-escalation, and honoring the customer promise no matter the queue.',
+      'Grounded in years of frontline experience — empathy, de-escalation, and clear communication with every customer.',
     icon: PhoneCall,
     tone: 'supporting',
-    items: ['First-contact resolution mindset', 'Soft-skills mentoring and shadowing', 'High-volume readiness and scheduling']
+    items: [
+      'First-contact resolution and ACW discipline',
+      'Soft-skills mentoring, shadowing, and QA calibration',
+      'High-volume readiness, scheduling, and adherence tracking'
+    ]
   }
 ];
 

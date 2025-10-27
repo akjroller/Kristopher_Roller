@@ -23,10 +23,12 @@ export const experiences: ExperienceItem[] = [
     category: 'Technical Support',
     aht: '< 5 min AHT',
     highlights: [
-      'Provide enterprise technical support across phone, chat, and email while maintaining sub-five-minute average handle time.',
-      'Diagnose hardware, software, and administrative defects for retail clients and translate fixes into clear next steps.',
-      'Rewrite knowledge base assets and macros to remove ambiguity and speed up first-contact resolution.',
-      'Mentor agents via DMs, call barges, and channel support so the entire queue benefits from escalated learnings.'
+      'Provide professional inbound and outbound support across phone, chat, and email with rapid response expectations.',
+      'Troubleshoot complex hardware, software, and administrative issues for enterprise retail clients.',
+      'Rewrite and clarify knowledge base articles and macros to improve accuracy across support content.',
+      'Mentor teammates in DMs and main chat channels so escalated learnings spread quickly.',
+      'Consistently maintain sub-five-minute AHT with minimal ACW while closing loops with customers.',
+      'Partner with leadership to surface documentation gaps and suggest operational improvements.'
     ]
   },
   {
@@ -36,9 +38,11 @@ export const experiences: ExperienceItem[] = [
     period: 'Feb 2025 – Mar 2025 · Remote',
     category: 'Technical Support',
     highlights: [
-      'Owned the toughest escalations when customers demanded supervisory assistance, even without the formal title.',
-      'Coordinated across IT, product, and engineering teams to resolve cross-platform software issues.',
-      'Authored detailed defect tickets, tracked fixes, and closed the loop with customers to restore confidence.'
+      'Acted as the escalation point for complex customer inquiries requesting supervisory attention.',
+      'Collaborated with IT and cross-functional teams to troubleshoot web, desktop, and mobile software issues.',
+      'Created detailed software issue tickets to drive timely fixes for user-reported bugs.',
+      'Applied advanced problem-solving skills to resolve unique customer issues standard support could not handle.',
+      'Maintained proactive communication with users to provide resolution updates and protect satisfaction.'
     ]
   },
   {
@@ -48,9 +52,9 @@ export const experiences: ExperienceItem[] = [
     period: 'Feb 2025 – Feb 2025 · Remote',
     category: 'Technical Support',
     highlights: [
-      'Applied heightened verification, fraud prevention, and privacy protocols for TurboTax users.',
-      'Triaged security-related account issues with urgency while preserving empathy and compliance.',
-      'Partnered with the security team to document repeat threats and recommend process updates.'
+      'Supported TurboTax users with heightened verification and security protocols to protect accounts.',
+      'Assisted the security services team with troubleshooting account and data privacy issues.',
+      'Strengthened security troubleshooting by applying best practices that safeguarded customer data.'
     ]
   },
   {
@@ -60,9 +64,12 @@ export const experiences: ExperienceItem[] = [
     period: 'Jan 2025 – Feb 2025 · Remote',
     category: 'Technical Support',
     highlights: [
-      'Guided TurboTax customers through complex return scenarios via phone, chat, and video support.',
-      'Escalated critical defects quickly while preserving CSAT through calm communication and thorough notes.',
-      'Balanced simultaneous system navigation, knowledge searches, and documentation with precision.'
+      'Guided TurboTax customers through software navigation, troubleshooting, and complex return scenarios.',
+      'Resolved issues via phone with video chat and chat channels while keeping communication clear.',
+      'Escalated complex cases to specialized teams without sacrificing customer satisfaction.',
+      'Leveraged multiple systems simultaneously to diagnose and resolve technical challenges in real time.',
+      'Demonstrated flexibility by supporting customers during peak and off-peak hours.',
+      'Documented interactions thoroughly to inform future support and engineering updates.'
     ]
   },
   {
@@ -72,9 +79,10 @@ export const experiences: ExperienceItem[] = [
     period: 'Sep 2023 – Jan 2025 · Remote',
     category: 'Call Center Foundations',
     highlights: [
-      'Handled 50–75 daily calls for policyholders, agents, and internal stakeholders with accuracy and empathy.',
-      'Mapped intricate insurance processes so agents had clear scripts, tip sheets, and decision trees.',
-      'Partnered with leaders to flag service risks early and coordinate training refreshers.'
+      'Delivered high-quality phone-based support to policyholders, beneficiaries, agents, and internal stakeholders.',
+      'Consistently handled 50–75 calls per day while meeting or exceeding service standards.',
+      'Resolved inquiries using deep knowledge of insurance products, policies, and processes.',
+      'Collaborated with management and peers to address service-related concerns proactively.'
     ]
   },
   {
@@ -84,9 +92,11 @@ export const experiences: ExperienceItem[] = [
     period: 'Oct 2021 – Mar 2022 · Remote (USA)',
     category: 'Supervisor Leadership',
     highlights: [
-      'Led 25+ remote agents through contractual KPIs with daily huddles, scorecards, and 1:1 coaching plans.',
-      'Implemented contests, peer mentoring, and QA calibrations that lifted both quality and productivity.',
-      'Managed hiring decisions, scheduling, payroll approvals, and stakeholder updates for a national program.'
+      'Led and managed a remote team of 25+ agents to meet and exceed client contractual obligations.',
+      'Delivered regular coaching and feedback while monitoring performance trends and productivity.',
+      'Oversaw hiring decisions, scheduling, payroll approvals, and policy enforcement for the program.',
+      'Coordinated contests and team activities to drive engagement and results.',
+      'Resolved operational issues by applying technical knowledge and continuous improvement practices.'
     ]
   },
   {
@@ -96,9 +106,10 @@ export const experiences: ExperienceItem[] = [
     period: 'Sep 2021 – Oct 2021 · Remote',
     category: 'Supervisor Leadership',
     highlights: [
-      'Served as right hand to supervisors, providing live call feedback and distributing urgent process updates.',
-      'Tracked agent productivity, attendance, and adherence to keep the floor balanced during spikes.',
-      'Identified skill gaps and coordinated refresher trainings to maintain compliance.'
+      'Assisted with managing a 25+ person team to meet contractual KPIs across quality, productivity, and compliance.',
+      'Delivered coaching, feedback, and developmental support to agents navigating complex updates.',
+      'Ensured timely dissemination of process changes while monitoring productivity, adherence, and scheduling.',
+      'Helped coordinate contests, training refreshers, and performance reviews alongside supervisors.'
     ]
   },
   {
@@ -108,9 +119,10 @@ export const experiences: ExperienceItem[] = [
     period: 'Jun 2021 – Sep 2021 · Richmond, IN',
     category: 'Call Center Foundations',
     highlights: [
-      'Acted as primary contact for customer account issues, consistently hitting quality and satisfaction goals.',
-      'Balanced independent remote work with proactive communication to leaders and peers.',
-      'Documented product fixes and alternative solutions that fed into future training content.'
+      'Acted as the primary point of contact for customers, resolving technical and account issues promptly.',
+      'Demonstrated exceptional verbal and written communication while supporting remote collaboration.',
+      'Maintained high-quality call resolution standards to protect customer satisfaction.',
+      'Offered product solutions and shared best practices that contributed to team success.'
     ]
   },
   {
@@ -120,9 +132,9 @@ export const experiences: ExperienceItem[] = [
     period: 'Jun 2023 – Present · Remote',
     category: 'Coding & Automation',
     highlights: [
-      'Manage a five-person volunteer team to deliver dependable event alerts for 413,000+ users across 3,500+ servers.',
-      'Translate community requests into product roadmaps, release notes, and uptime metrics that mirror call center rigor.',
-      'Optimize infrastructure with Python, AWS, PostgreSQL, and Redis to maintain sub-500ms notification delivery.'
+      'Manage a five-member team maintaining a Discord bot that supports 413,000+ users across 3,500+ servers.',
+      'Provide real-time Diablo 4 event alerts with improvements that boosted speed and reliability over competitors.',
+      'Utilize Python 3, AWS, PostgreSQL Aurora, Redis, and CDN tooling to ensure uptime and efficient delivery.'
     ]
   }
 ];

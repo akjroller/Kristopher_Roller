@@ -1,31 +1,31 @@
 import { motion } from 'framer-motion';
-import { UsersRound, LifeBuoy, Code2, PhoneCall } from 'lucide-react';
+import { UsersRound, LifeBuoy, Code2, ShieldCheck } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const highlights = [
   {
-    title: 'Supervisor-led operations',
+    title: 'Omnichannel technical support',
     description:
-      'I keep remote teams aligned with daily huddles, scorecard reviews, and transparent coaching plans that protect KPIs, morale, and client confidence.',
-    icon: UsersRound
+      'Phone, chat, email, and video support are part of my daily flow — I troubleshoot fast while keeping customers informed and calm.',
+    icon: LifeBuoy
   },
   {
     title: 'Escalation & security readiness',
     description:
-      'Complex tax, benefits, and security cases come my way — I calm customers, coordinate specialists, and ensure agents know exactly how to resolve the next one.',
-    icon: LifeBuoy
+      'When issues require heightened verification or supervisor support, I guide the process, protect data, and document what to do next time.',
+    icon: ShieldCheck
   },
   {
     title: 'Training & enablement mindset',
     description:
-      'I pair supervisor coaching with refreshed knowledge bases, LMS updates, and QA calibrations so every agent knows what “great” looks like and leaders have proof of progress.',
+      'I rewrite articles, refresh macros, and mentor peers so knowledge bases stay accurate and new hires onboard faster.',
     icon: Code2
   },
   {
-    title: 'Call center roots',
+    title: 'Call center leadership roots',
     description:
-      'Years on the phones built the empathy, active listening, and process discipline that still guide every operational decision — my agent experience fuels better leadership.',
-    icon: PhoneCall
+      'Years on the phones and in supervisor roles taught me how to coach, track KPIs, and spot process gaps before they impact customers.',
+    icon: UsersRound
   }
 ];
 
