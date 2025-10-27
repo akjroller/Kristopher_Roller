@@ -41,10 +41,10 @@ const HeroBanner = () => (
           Kristopher Roller · Call Center Supervisor · Technical Support Leader · Enablement Partner
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          Remote operations leader who steadies support teams, protects KPIs, and turns insights into action.
+          Remote operations leader steering call center teams with a frontline agent’s instincts.
         </motion.h1>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          Explore how I combine supervisor coaching, escalation expertise, and documentation strategy to keep call center programs calm, compliant, and customer-obsessed. Every section of this interactive resume ties back to leading people and serving customers well.
+          Explore how I combine supervisor coaching, escalation expertise, and documentation strategy to keep call center programs calm, compliant, and customer-obsessed. Years on the phones give me the credibility to coach from experience while keeping every agent aligned to the plan.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
           <Link to="/experience" className="btn-primary">
