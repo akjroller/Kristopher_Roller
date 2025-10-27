@@ -4,9 +4,9 @@ import { Linkedin, BriefcaseBusiness, FileText, UsersRound } from 'lucide-react'
 import { resumeUrl } from '../../data/resume';
 
 const stats = [
-  { label: 'Escalations resolved', value: '18% drop after updated playbooks & KB refreshes' },
-  { label: 'Agent onboarding', value: '12 new hires ramped with mentoring & quick-guides' },
-  { label: 'Customer sentiment', value: 'Consistent 95% QA scores across 50–75 contacts daily' }
+  { label: 'Escalation repeat rate', value: '↓ 18% after rewriting playbooks & verification flows' },
+  { label: 'New-hire ramp time', value: '12 agents job-ready in 4 weeks with quick-guides & mentoring' },
+  { label: 'Customer quality scores', value: '95–97% QA across 50–75 omnichannel contacts per day' }
 ];
 
 const fade = {
@@ -39,19 +39,26 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Technical Support &amp; Call Center Leadership
+          Technical support supervisor &amp; process improvement specialist
         </motion.p>
-        <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
+        <motion.h1
+          className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl"
+          custom={1}
+          variants={fade}
+        >
           Kristopher Roller
         </motion.h1>
-        <motion.h2 className="text-xl font-medium text-primary md:text-2xl" custom={2} variants={fade}>
-          Technical Support &amp; Call Center Leader — empowering teams, elevating CX, and streamlining operations.
+        <motion.h2
+          className="max-w-2xl text-2xl font-semibold text-slate-200 md:text-3xl"
+          custom={2}
+          variants={fade}
+        >
+          Guiding remote support teams to solve complex issues with empathy, documentation, and measurable results.
         </motion.h2>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={3} variants={fade}>
-          I started on the phones and grew into remote leadership roles where calm guidance, documentation, and mentorship power
-          every win. Today I help distributed teams solve complex customer challenges, tighten processes, and deliver service
-          that earns trust the first time. I’m passionate about turning frontline insights into playbooks that keep teams
-          confident long after the call ends.
+          I began in frontline customer care because I love helping people find answers. A decade later, I coach distributed
+          teams, refresh knowledge bases, and design escalation playbooks that cut repeat contacts and keep quality above 95%.
+          My calm leadership style turns stressful customer moments into confidence-building wins for both agents and clients.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={4} variants={fade}>
           <a href={resumeUrl} className="btn-primary inline-flex items-center gap-2" download>
@@ -91,10 +98,26 @@ const HeroBanner = () => (
         </motion.div>
       </motion.div>
       <motion.div initial="hidden" animate="visible" className="card glass grid gap-6 p-8" variants={cardContainer}>
+        <motion.figure
+          className="flex items-center gap-4 rounded-2xl border border-slate-800/70 bg-slate-950/60 p-4"
+          custom={0}
+          variants={fade}
+        >
+          <img
+            src="/headshot.svg"
+            alt="Portrait of Kristopher Roller"
+            className="h-16 w-16 rounded-2xl border border-slate-800 object-cover"
+            loading="lazy"
+          />
+          <figcaption className="text-sm text-slate-300">
+            <span className="block text-sm font-semibold uppercase tracking-[0.28em] text-primary/80">Remote leader</span>
+            <span className="block text-base text-slate-100">10+ years supporting customers &amp; mentoring teams</span>
+          </figcaption>
+        </motion.figure>
         {stats.map((stat, index) => (
           <motion.div
             key={stat.label}
-            custom={index}
+            custom={index + 1}
             variants={fade}
             className="rounded-2xl border border-slate-800/70 bg-slate-900/60 p-5 shadow-inner shadow-black/20"
           >
@@ -102,7 +125,7 @@ const HeroBanner = () => (
             <p className="mt-2 text-xl font-semibold text-slate-50">{stat.value}</p>
           </motion.div>
         ))}
-        <motion.p className="text-sm italic text-slate-300" custom={4} variants={fade}>
+        <motion.p className="text-sm italic text-slate-300" custom={stats.length + 1} variants={fade}>
           “Kristopher steadies the room, gives agents exactly what they need, and turns tough conversations into confident
           customer moments.” — Former Conduent Supervisor
         </motion.p>
