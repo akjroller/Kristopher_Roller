@@ -1,9 +1,9 @@
 export const resumeHighlights = [
-  '10+ years of customer service and technical support experience in remote environments.',
-  'Strong background in call center supervision, training, and performance management.',
-  'Proven ability to maintain sub-five-minute AHT while upholding exceptional service quality.',
-  'Experienced in rewriting and improving internal documentation for clarity and accuracy.',
-  'Recognized for mentoring peers and contributing to team success through collaboration.'
+  '10+ years of remote customer support and technical troubleshooting experience across benefits, tax, and retail programs.',
+  'Led and coached 25+ agents through hiring, QA, scorecards, and daily huddles that improved adherence by 10%.',
+  'Maintained sub-five-minute AHT while sustaining 95%+ QA scores and strong first-contact resolution.',
+  'Rewrote 40+ knowledge base assets and macros, cutting repeat escalations by 18%.',
+  'Mentored 12 new hires and seasoned peers through shadowing, quick-guides, and calm escalation management.'
 ];
 
 export const resumeUrl = '/Resume.pdf';

@@ -1,30 +1,30 @@
 import { motion } from 'framer-motion';
-import { UsersRound, LifeBuoy, Code2, ShieldCheck } from 'lucide-react';
+import { UsersRound, LifeBuoy, NotebookPen, ShieldCheck } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const highlights = [
   {
     title: 'Omnichannel technical support',
     description:
-      'Phone, chat, email, and video support are part of my daily flow — I troubleshoot fast while keeping customers informed and calm.',
+      'Phone, chat, email, and video support are part of my daily flow — I resolve issues quickly while keeping customers informed and calm across 50–75 daily conversations.',
     icon: LifeBuoy
   },
   {
     title: 'Escalation & security readiness',
     description:
-      'When issues require heightened verification or supervisor support, I guide the process, protect data, and document what to do next time.',
+      'When issues require heightened verification or supervisor support, I guide the process, protect data, and document what to do next time — preventing repeat escalations by 18%.',
     icon: ShieldCheck
   },
   {
     title: 'Training & enablement mindset',
     description:
-      'I rewrite articles, refresh macros, and mentor peers so knowledge bases stay accurate and new hires onboard faster.',
-    icon: Code2
+      'I rewrite articles, refresh macros, and mentor peers so knowledge bases stay accurate — helping 12 new hires ramp faster with confidence-building quick-guides.',
+    icon: NotebookPen
   },
   {
     title: 'Call center leadership roots',
     description:
-      'Years on the phones and in supervisor roles taught me how to coach, track KPIs, and spot process gaps before they impact customers.',
+      'Years on the phones and in supervisor roles taught me how to coach, track KPIs, and spot process gaps before they impact customers, keeping QA scores at or above 95%.',
     icon: UsersRound
   }
 ];

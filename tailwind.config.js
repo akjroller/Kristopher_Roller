@@ -4,15 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0ea5e9',
-        accent: '#22d3ee',
+        primary: '#facc15',
+        accent: '#0f172a',
+        teal: '#14b8a6',
+        blue: '#38bdf8',
         dark: '#020617'
       },
       fontFamily: {
         sans: ['"Inter"', 'system-ui', 'sans-serif']
       },
       boxShadow: {
-        glow: '0 20px 45px -20px rgba(14, 165, 233, 0.45)'
+        glow: '0 20px 45px -20px rgba(250, 204, 21, 0.4)'
       }
     }
   },

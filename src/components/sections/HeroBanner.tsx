@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
+import { Linkedin, BriefcaseBusiness, FileText, UsersRound } from 'lucide-react';
+import { resumeUrl } from '../../data/resume';
 
 const stats = [
-  { label: 'Average handle time', value: '< 5 minutes across high-pressure queues' },
-  { label: 'Daily case volume', value: '50–75 customer conversations guided to resolution' },
-  { label: 'Team support', value: '25+ agents coached, trained, and supported remotely' }
+  { label: 'Escalations resolved', value: '18% drop after updated playbooks & KB refreshes' },
+  { label: 'Agent onboarding', value: '12 new hires ramped with mentoring & quick-guides' },
+  { label: 'Customer sentiment', value: 'Consistent 95% QA scores across 50–75 contacts daily' }
 ];
 
 const fade = {
@@ -38,32 +39,30 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Kristopher Roller · Technical Support & Customer Experience Leader
+          Technical Support &amp; Call Center Leadership
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          Calm leadership. Clear communication. Consistent results.
+          Kristopher Roller
         </motion.h1>
-        <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          I’m a technical support and customer experience leader with over a decade of hands-on call center work. From the frontline to remote supervision, I help teams stay steady under pressure by leading with empathy, clarity, and accountability.
+        <motion.h2 className="text-xl font-medium text-primary md:text-2xl" custom={2} variants={fade}>
+          Technical Support &amp; Call Center Leader — empowering teams, elevating CX, and streamlining operations.
+        </motion.h2>
+        <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={3} variants={fade}>
+          I started on the phones and grew into remote leadership roles where calm guidance, documentation, and mentorship power
+          every win. Today I help distributed teams solve complex customer challenges, tighten processes, and deliver service
+          that earns trust the first time. I’m passionate about turning frontline insights into playbooks that keep teams
+          confident long after the call ends.
         </motion.p>
-        <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
-          <Link to="/experience" className="btn-primary">
-            Experience timeline
-          </Link>
-          <Link to="/resume" className="btn-secondary">
-            Resume &amp; downloads
+        <motion.div className="flex flex-wrap gap-4" custom={4} variants={fade}>
+          <a href={resumeUrl} className="btn-primary inline-flex items-center gap-2" download>
+            <FileText className="h-4 w-4" aria-hidden />
+            Download Résumé (PDF)
+          </a>
+          <Link to="/experience" className="btn-secondary">
+            View experience timeline
           </Link>
         </motion.div>
-        <motion.div className="flex flex-wrap items-center gap-3 text-sm text-slate-300" custom={4} variants={fade}>
-          <a
-            href="https://github.com/akjroller"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-slate-800/70 bg-slate-950/60 px-4 py-2 transition hover:border-primary/70 hover:text-white"
-          >
-            <Github className="h-4 w-4" aria-hidden />
-            GitHub
-          </a>
+        <motion.div className="flex flex-wrap items-center gap-3 text-sm text-slate-300" custom={5} variants={fade}>
           <a
             href="https://www.linkedin.com/in/kristopher-roller-84775294/"
             target="_blank"
@@ -82,22 +81,30 @@ const HeroBanner = () => (
             <BriefcaseBusiness className="h-4 w-4" aria-hidden />
             Indeed
           </a>
+          <Link
+            to="/contact"
+            className="inline-flex items-center gap-2 rounded-full border border-primary/60 bg-primary/20 px-4 py-2 text-primary transition hover:bg-primary/30"
+          >
+            <UsersRound className="h-4 w-4" aria-hidden />
+            Connect with me
+          </Link>
         </motion.div>
       </motion.div>
-      <motion.div initial="hidden" animate="visible" className="card glass grid gap-4 p-8" variants={cardContainer}>
+      <motion.div initial="hidden" animate="visible" className="card glass grid gap-6 p-8" variants={cardContainer}>
         {stats.map((stat, index) => (
           <motion.div
             key={stat.label}
             custom={index}
             variants={fade}
-            className="rounded-xl border border-slate-800/80 bg-slate-900/60 p-5"
+            className="rounded-2xl border border-slate-800/70 bg-slate-900/60 p-5 shadow-inner shadow-black/20"
           >
             <p className="text-xs uppercase tracking-[0.28em] text-slate-500">{stat.label}</p>
             <p className="mt-2 text-xl font-semibold text-slate-50">{stat.value}</p>
           </motion.div>
         ))}
-        <motion.p className="text-sm text-slate-400" custom={4} variants={fade}>
-          “The Roller Method: lead with calm, solve with empathy, and make every process better.”
+        <motion.p className="text-sm italic text-slate-300" custom={4} variants={fade}>
+          “Kristopher steadies the room, gives agents exactly what they need, and turns tough conversations into confident
+          customer moments.” — Former Conduent Supervisor
         </motion.p>
       </motion.div>
     </div>

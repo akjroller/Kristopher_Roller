@@ -27,7 +27,7 @@ const Experience = () => {
         <SectionHeader
           eyebrow="Experience"
           title="Experience that drives better service"
-          description="I’ve built my career around helping customers, agents, and leaders succeed. These roles show how I balance empathy, efficiency, and accuracy in every interaction."
+          description="Each role builds on the last — from frontline empathy to supervising 25+ agents and now leading technical support programs that keep QA at 95%+. Explore how documentation, coaching, and calm escalation management show up in every chapter."
         />
         <div className="flex flex-wrap gap-3">
           {filters.map((filter) => (
@@ -81,12 +81,12 @@ const Experience = () => {
         description="Match these roles with the initiatives and highlights to see how frontline lessons become repeatable wins."
         links={[
           {
-            label: 'Initiatives & achievements',
+            label: 'Proof & initiatives',
             to: '/projects',
             description: 'Review the documentation and reporting improvements supporting remote teams.'
           },
           {
-            label: 'Resume & downloads',
+            label: 'Résumé & downloads',
             to: '/resume',
             description: 'Get a condensed overview plus a PDF you can share with your stakeholders.'
           },

@@ -23,7 +23,7 @@ const Resume = () => {
   return (
     <div className="space-y-16">
       <Helmet>
-        <title>Resume &amp; Highlights</title>
+        <title>Résumé &amp; Downloads</title>
         <meta
           name="description"
           content="Browse Kristopher Roller’s resume highlights, download the PDF, and review key strengths."
@@ -31,7 +31,7 @@ const Resume = () => {
       </Helmet>
       <section className="section-container space-y-10">
         <SectionHeader
-          eyebrow="Resume &amp; Highlights"
+          eyebrow="Résumé &amp; Highlights"
           title="Overview of my experience"
           description="A quick look at my core strengths and professional focus areas. For full details, download the PDF version below."
         />
@@ -82,7 +82,7 @@ const Resume = () => {
             description: 'Read how I lead teams, maintain top-tier support metrics, and build trust with stakeholders.'
           },
           {
-            label: 'Initiatives & achievements',
+            label: 'Proof & initiatives',
             to: '/projects',
             description: 'See the documentation and reporting work that keeps teams informed and confident.'
           },

@@ -11,13 +11,39 @@ import NotFound from './pages/NotFound';
 
 const App = () => (
   <>
-    <Helmet defaultTitle="Kristopher Roller — Call Center Supervisor & Technical Support Leader" titleTemplate="%s | The Roller Method">
+    <Helmet defaultTitle="Kristopher Roller – Technical Support & Call Center Leader | Process Improvement & Customer Experience" titleTemplate="%s | The Roller Method">
       <html lang="en" />
       <meta
         name="description"
-        content="Interactive resume for Kristopher Roller — call center supervisor, technical support leader, and documentation-focused coach."
+        content="Kristopher Roller is a technical support and call center leader specializing in process improvement, documentation, and people-first coaching."
       />
-      <meta name="theme-color" content="#0f172a" />
+      <meta name="theme-color" content="#020617" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Kristopher Roller – Technical Support & Call Center Leader | Process Improvement & Customer Experience" />
+      <meta property="og:description" content="Technical support professional with over a decade of leadership experience. Skilled in process optimization, documentation, and empowering teams to exceed customer expectations." />
+      <meta property="og:image" content="/headshot.svg" />
+      <meta property="og:url" content="https://kristopherroller.com" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Kristopher Roller – Technical Support & Call Center Leader" />
+      <meta name="twitter:description" content="Remote technical support and call center leader focused on customer experience, documentation, and team coaching." />
+      <meta name="twitter:image" content="/headshot.svg" />
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Kristopher Roller",
+            "jobTitle": "Technical Support & Call Center Leader",
+            "url": "https://kristopherroller.com",
+            "sameAs": [
+              "https://www.linkedin.com/in/kristopher-roller-84775294/",
+              "https://profile.indeed.com/p/kristopherr-20y8qlr"
+            ],
+            "email": "mailto:akjroller@gmail.com",
+            "description": "Technical support and call center leader empowering teams, elevating customer experience, and streamlining operations."
+          }
+        `}
+      </script>
     </Helmet>
     <Routes>
       <Route element={<SiteLayout />}>
