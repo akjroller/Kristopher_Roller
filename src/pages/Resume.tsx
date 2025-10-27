@@ -21,14 +21,17 @@ const Resume = () => {
   return (
     <div className="space-y-16">
       <Helmet>
-        <title>Resume</title>
-        <meta name="description" content="Download or preview Kristopher Roller’s resume." />
+        <title>Resume &amp; Highlights</title>
+        <meta
+          name="description"
+          content="Browse Kristopher Roller’s resume highlights, download the PDF, and review key strengths."
+        />
       </Helmet>
       <section className="section-container space-y-10">
         <SectionHeader
-          eyebrow="Resume"
-          title="Download &amp; preview"
-          description="Review my technical support experience, remote operations leadership, and documentation improvements in one place."
+          eyebrow="Resume &amp; Highlights"
+          title="Overview of my experience"
+          description="A quick look at my core strengths and professional focus areas. For full details, download the PDF version below."
         />
         <div className="grid gap-10 lg:grid-cols-[1.1fr,0.9fr]">
           <div className="space-y-6">
@@ -65,7 +68,7 @@ const Resume = () => {
       <PageBridge
         eyebrow="Want more context?"
         title="Match the resume to detailed stories"
-        description="Use these pages to explore the stories, projects, and contact details behind every bullet on the resume."
+        description="Use these pages to explore the experience, initiatives, and next steps behind every bullet on the resume."
         links={[
           {
             label: 'Experience timeline',
@@ -73,9 +76,9 @@ const Resume = () => {
             description: 'Read how I lead teams, maintain top-tier support metrics, and build trust with stakeholders.'
           },
           {
-            label: 'Projects & automation',
+            label: 'Initiatives & achievements',
             to: '/projects',
-            description: 'See the tools and bots that extend my leadership impact beyond the queue.'
+            description: 'See the documentation and reporting work that keeps teams informed and confident.'
           },
           {
             label: 'Contact Kristopher',

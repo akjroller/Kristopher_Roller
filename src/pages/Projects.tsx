@@ -7,20 +7,22 @@ import { featuredProject, secondaryProjects } from '../data/projects';
 const Projects = () => (
   <div className="space-y-16">
     <Helmet>
-      <title>Projects</title>
+      <title>Initiatives &amp; Achievements</title>
       <meta
         name="description"
-        content="Technical support automation, documentation refreshes, and reporting systems led by Kristopher Roller for high-volume remote teams."
+        content="Explore Kristopher Roller’s initiatives that improved documentation clarity, reporting visibility, and team performance."
       />
     </Helmet>
     <section className="section-container space-y-12">
       <SectionHeader
-        eyebrow="Featured project"
-        title={featuredProject.title}
-        description={featuredProject.description}
+        eyebrow="Initiatives &amp; Achievements"
+        title="Projects that improved clarity and team performance"
+        description="I’ve led and contributed to initiatives that strengthened team knowledge, improved documentation accuracy, and enhanced service consistency."
       />
       <div className="grid gap-10 lg:grid-cols-[1.05fr,0.95fr] lg:items-center">
         <div className="space-y-6">
+          <h2 className="text-2xl font-semibold text-slate-50">{featuredProject.title}</h2>
+          <p className="text-sm text-slate-300">{featuredProject.description}</p>
           <div className="grid gap-4 sm:grid-cols-3">
             {featuredProject.metrics.map((metric) => (
               <div key={metric.label} className="card glass space-y-2 border-slate-800/70 bg-slate-900/70 p-6">
@@ -61,16 +63,16 @@ const Projects = () => (
             />
           </div>
           <p className="px-8 pb-8 pt-6 text-sm text-slate-300">
-            Designed for clarity in chaos: the refreshed playbook pairs dashboards, decision trees, and change logs so every agent knows the latest path to resolution.
+            Built for clarity and consistency: updated guidance, visual aids, and callouts keep agents confident during every customer interaction.
           </p>
         </div>
       </div>
     </section>
     <section className="section-container space-y-10">
       <SectionHeader
-        eyebrow="More builds"
-        title="Supporting automations and enablement projects"
-        description="Systems that prove how I translate frontline gaps into better knowledge, reporting, and customer experiences."
+        eyebrow="Additional initiatives"
+        title="More ways I support teams"
+        description="Each achievement focuses on making it easier for agents and leaders to deliver great service."
       />
       <div className="grid gap-6 lg:grid-cols-2">
         {secondaryProjects.map((project) => (
@@ -114,23 +116,23 @@ const Projects = () => (
     </section>
     <PageBridge
       eyebrow="Next up"
-      title="See how the builds connect with the work"
-      description="These projects sit on top of the day-to-day leadership and technical support wins you’ll find elsewhere on the site."
+      title="See how the initiatives connect with the work"
+      description="These achievements support the day-to-day leadership and technical support wins you’ll find elsewhere on the site."
       links={[
         {
           label: 'Experience timeline',
           to: '/experience',
-          description: 'Trace the roles where I led teams and spotted the gaps these tools now solve.'
+          description: 'Trace the roles where I led teams and spotted the gaps these initiatives now solve.'
         },
         {
           label: 'Resume & downloads',
           to: '/resume',
-          description: 'Share a concise overview of my leadership and automation impact with your stakeholders.'
+          description: 'Share a concise overview of my leadership and support impact with your stakeholders.'
         },
         {
           label: 'Contact Kristopher',
           to: '/contact',
-          description: 'Let’s discuss how similar tooling could support your agents or customers.'
+          description: 'Let’s discuss how similar initiatives could support your agents or customers.'
         }
       ]}
     />

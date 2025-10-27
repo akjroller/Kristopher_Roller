@@ -4,12 +4,7 @@ import SectionHeader from '../components/common/SectionHeader';
 import PageBridge from '../components/common/PageBridge';
 import { ExperienceCategory, experiences } from '../data/experience';
 
-const filters: ExperienceCategory[] = [
-  'Supervisor Leadership',
-  'Technical Support',
-  'Coding & Automation',
-  'Call Center Foundations'
-];
+const filters: ExperienceCategory[] = ['Supervisor Leadership', 'Technical Support', 'Customer Support Foundations'];
 
 const Experience = () => {
   const [activeFilter, setActiveFilter] = useState<ExperienceCategory>('Technical Support');
@@ -25,14 +20,14 @@ const Experience = () => {
         <title>Experience</title>
         <meta
           name="description"
-          content="Explore Kristopher Roller’s experience supervising remote call centers, resolving escalations fast, and elevating documentation and automation."
+          content="Explore Kristopher Roller’s experience supervising remote call centers, resolving escalations quickly, and supporting teams with people-first leadership."
         />
       </Helmet>
       <section className="section-container space-y-10">
         <SectionHeader
           eyebrow="Experience"
-          title="Where I’ve delivered impact"
-          description="Explore the roles where I resolved complex customer issues, led remote teams, refreshed documentation, and built automations that support high-volume operations."
+          title="Experience that drives better service"
+          description="I’ve built my career around helping customers, agents, and leaders succeed. These roles show how I balance empathy, efficiency, and accuracy in every interaction."
         />
         <div className="flex flex-wrap gap-3">
           {filters.map((filter) => (
@@ -76,16 +71,19 @@ const Experience = () => {
             </article>
           ))}
         </div>
+        <p className="text-sm text-slate-300">
+          Across every role, I’ve built a reputation for staying steady under pressure, supporting my team, and ensuring that each customer interaction reflects professionalism and care.
+        </p>
       </section>
       <PageBridge
         eyebrow="Connect the dots"
         title="Experience that feeds every other page"
-        description="Match these roles with the enablement projects and resume highlights to see how I turn frontline lessons into repeatable wins."
+        description="Match these roles with the initiatives and highlights to see how frontline lessons become repeatable wins."
         links={[
           {
-            label: 'Projects & automation',
+            label: 'Initiatives & achievements',
             to: '/projects',
-            description: 'Review the operations playbook refresh and automation programs supporting remote teams.'
+            description: 'Review the documentation and reporting improvements supporting remote teams.'
           },
           {
             label: 'Resume & downloads',

@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { ShieldCheck, LifeBuoy, Code2, PhoneCall } from 'lucide-react';
+import { ShieldCheck, LifeBuoy, NotebookPen, PhoneCall } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const focusAreas = [
   'Remote call center leadership grounded in huddles, 1:1s, QA reviews, and scorecards',
   'Technical troubleshooting for tax, insurance, and retail platforms across phone, chat, email, and video',
-  'Knowledge base rewrites and automation that keep documentation, macros, and alerts accurate'
+  'Knowledge base rewrites and documentation updates that keep procedures accurate'
 ];
 
 const impactStats = [
@@ -21,10 +21,10 @@ const toolset = [
   'Nice CXone',
   'Notion & Confluence',
   'SharePoint',
-  'Python',
-  'Power BI',
-  'Slack & Teams automation',
-  'AWS & PostgreSQL'
+  'Excel & Power BI',
+  'Teams & Slack',
+  'Snagit & Loom',
+  'Google Workspace'
 ];
 
 const skillGroups = [
@@ -53,15 +53,15 @@ const skillGroups = [
     ]
   },
   {
-    title: 'Enablement & automation toolkit',
+    title: 'Documentation & enablement practice',
     description:
-      'Automation, documentation refreshes, and analytics built from frontline insights so the next customer gets faster answers.',
-    icon: Code2,
+      'Documentation refreshes and analytics built from frontline insights so the next customer gets faster answers.',
+    icon: NotebookPen,
     tone: 'primary',
     items: [
-      'Python automation powering alerts and reporting',
-      'API orchestration, integrations, and task queues',
-      'Knowledge base, macro, and LMS content maintenance'
+      'Knowledge base, macro, and LMS content maintenance',
+      'QA trends translated into quick-reference guides',
+      'Reporting dashboards supporting daily coaching'
     ]
   },
   {
@@ -95,8 +95,8 @@ const SkillShowcase = () => (
   <section className="section-container space-y-12">
     <SectionHeader
       eyebrow="Skills in practice"
-      title="The mix of leadership, support, and code I rely on"
-      description="Think of this section as the legend for the rest of the site. Each grouping links to examples in the experience and project pages where the skills were put to work."
+      title="The mix of leadership, support, and documentation I rely on"
+      description="Think of this section as the legend for the rest of the site. Each grouping links to examples in the experience and initiatives pages where the skills were put to work."
       align="center"
     />
     <div className="grid gap-10 xl:grid-cols-[1.05fr,0.95fr] xl:items-start">
@@ -111,7 +111,7 @@ const SkillShowcase = () => (
         <div className="pointer-events-none absolute bottom-[-35%] left-[-20%] h-72 w-72 rounded-full bg-emerald-400/10 blur-3xl" aria-hidden />
         <div className="relative space-y-8">
           <p className="max-w-xl text-lg text-slate-200">
-            Leadership, support, and enablement overlap in my day-to-day. I document what I learn on the floor, fold it into training plans, and automate the follow-up so teams always have the latest answers.
+            Leadership, support, and enablement overlap in my day-to-day. I document what I learn on the floor, fold it into training plans, and share the follow-up so teams always have the latest answers.
           </p>
           <ul className="grid gap-3 sm:grid-cols-2">
             {focusAreas.map((item) => (

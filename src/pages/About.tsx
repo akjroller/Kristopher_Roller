@@ -1,14 +1,14 @@
 import { Helmet } from 'react-helmet';
-import { MapPin, BadgeCheck, Cpu, Bot } from 'lucide-react';
+import { MapPin, Timer, UsersRound, FileText } from 'lucide-react';
 import SectionHeader from '../components/common/SectionHeader';
 import PageBridge from '../components/common/PageBridge';
 import { funFacts, journey } from '../data/about';
 
 const iconMap = {
   'map-pin': MapPin,
-  'badge-check': BadgeCheck,
-  cpu: Cpu,
-  bot: Bot
+  timer: Timer,
+  users: UsersRound,
+  'file-text': FileText
 };
 
 const About = () => (
@@ -17,7 +17,7 @@ const About = () => (
       <title>About Kristopher Roller</title>
       <meta
         name="description"
-        content="Explore Kristopher Roller’s journey from frontline advocate to call center supervisor, escalation expert, and enablement strategist."
+        content="Explore Kristopher Roller’s journey from frontline advocate to remote leader supporting technical teams with empathy and clarity."
       />
     </Helmet>
     <section className="section-container">
@@ -25,8 +25,8 @@ const About = () => (
         <div className="space-y-10">
           <SectionHeader
             eyebrow="My story"
-            title="Technical support leadership shaped by frontline experience"
-            description="I started as a customer advocate, stepped into supervisor roles, and now pair remote operations, escalations, and documentation to keep teams confident."
+            title="Leadership shaped by frontline experience"
+            description="My career began on the phones — helping customers with complex account issues and learning the power of patience, communication, and precision. Over time, I moved into team leadership, where I discovered my passion for coaching, performance improvement, and helping others succeed. Today, I combine technical support expertise with people-first leadership to deliver consistent, high-quality service across remote operations."
           />
           <div className="space-y-6">
             {journey.map((entry) => (
@@ -48,13 +48,17 @@ const About = () => (
             />
           </div>
           <blockquote className="card bg-slate-900/60 p-8 text-lg text-slate-200">
-            “The Roller Method means lead with calm, solve with empathy, and automate the follow-through.”
+            “I lead by example — staying calm under pressure, keeping communication clear, and ensuring every customer and agent feels supported.”
           </blockquote>
         </div>
       </div>
     </section>
     <section className="section-container space-y-10">
-      <SectionHeader eyebrow="Fast facts" title="Details hiring managers ask about" description="Snapshot stats that show how I support remote customers and the teams behind them." />
+      <SectionHeader
+        eyebrow="Fast facts"
+        title="Snapshot of how I support teams"
+        description="Details that highlight the service quality, coaching, and documentation strengths I bring to every program."
+      />
       <div className="grid gap-6 md:grid-cols-4">
         {funFacts.map((fact) => {
           const Icon = iconMap[fact.icon as keyof typeof iconMap];
@@ -68,25 +72,25 @@ const About = () => (
         })}
       </div>
     </section>
-      <PageBridge
-        eyebrow="Where to next"
-        title="See how leadership, support, and enablement connect"
-        description="Each page adds context for how I coach agents, resolve issues, and keep documentation and tools current."
-        links={[
-          {
-            label: 'Experience timeline',
-            to: '/experience',
-            description: 'See how supervisor leadership, technical support, and automation show up in real roles.'
-          },
-          {
-            label: 'Projects & automation',
-            to: '/projects',
-            description: 'Review the operations playbook refresh and automation programs built for remote teams.'
-          },
-          {
-            label: 'Resume & downloads',
-            to: '/resume',
-            description: 'Grab a printable resume plus quick highlights to share with your team.'
+    <PageBridge
+      eyebrow="Where to next"
+      title="Explore the work behind the story"
+      description="Dive into the roles, initiatives, and highlights that show how I deliver steady support and team leadership."
+      links={[
+        {
+          label: 'Experience timeline',
+          to: '/experience',
+          description: 'Review how frontline insights and leadership decisions translate into measurable results.'
+        },
+        {
+          label: 'Initiatives & achievements',
+          to: '/projects',
+          description: 'See the documentation and reporting improvements that keep teams aligned.'
+        },
+        {
+          label: 'Resume & downloads',
+          to: '/resume',
+          description: 'Share a concise overview of my skills, strengths, and service focus.'
         }
       ]}
     />

@@ -15,7 +15,7 @@ const App = () => (
       <html lang="en" />
       <meta
         name="description"
-        content="Interactive resume for Kristopher Roller — call center supervisor, technical support leader, enablement strategist, and automation partner."
+        content="Interactive resume for Kristopher Roller — call center supervisor, technical support leader, and documentation-focused coach."
       />
       <meta name="theme-color" content="#0f172a" />
     </Helmet>

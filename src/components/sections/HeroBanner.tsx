@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { Github, Linkedin, BriefcaseBusiness } from 'lucide-react';
 
 const stats = [
-  { label: 'Average handle time', value: '< 5 minutes on complex escalations' },
-  { label: 'Daily case volume', value: '50–75 technical support contacts' },
-  { label: 'Knowledge impact', value: '40+ support articles and macros refreshed' }
+  { label: 'Average handle time', value: '< 5 minutes across high-pressure queues' },
+  { label: 'Daily case volume', value: '50–75 customer conversations guided to resolution' },
+  { label: 'Team support', value: '25+ agents coached, trained, and supported remotely' }
 ];
 
 const fade = {
@@ -38,13 +38,13 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Kristopher Roller · Technical Support & Remote Operations Leader
+          Kristopher Roller · Technical Support & Customer Experience Leader
         </motion.p>
         <motion.h1 className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl" custom={1} variants={fade}>
-          Remote support expert keeping teams calm, customers confident, and documentation current.
+          Calm leadership. Clear communication. Consistent results.
         </motion.h1>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={2} variants={fade}>
-          I blend frontline experience with supervisor leadership to troubleshoot complex issues, maintain top-tier AHT/AWT, and mentor teammates through fast-paced escalations. Process improvements and knowledge refreshes are part of my daily rhythm so every customer — and every agent — gets timely, accurate answers.
+          I’m a technical support and customer experience leader with over a decade of hands-on call center work. From the frontline to remote supervision, I help teams stay steady under pressure by leading with empathy, clarity, and accountability.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={3} variants={fade}>
           <Link to="/experience" className="btn-primary">
@@ -97,7 +97,7 @@ const HeroBanner = () => (
           </motion.div>
         ))}
         <motion.p className="text-sm text-slate-400" custom={4} variants={fade}>
-          These metrics reflect the resume below — responsive support, disciplined documentation, and leadership that keeps remote teams performing.
+          “The Roller Method: lead with calm, solve with empathy, and make every process better.”
         </motion.p>
       </motion.div>
     </div>

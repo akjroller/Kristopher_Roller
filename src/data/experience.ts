@@ -1,8 +1,4 @@
-export type ExperienceCategory =
-  | 'Supervisor Leadership'
-  | 'Technical Support'
-  | 'Coding & Automation'
-  | 'Call Center Foundations';
+export type ExperienceCategory = 'Supervisor Leadership' | 'Technical Support' | 'Customer Support Foundations';
 
 export interface ExperienceItem {
   id: string;
@@ -18,123 +14,104 @@ export const experiences: ExperienceItem[] = [
   {
     id: 'rimg-tsr',
     role: 'Technical Service Representative',
-    company: 'Retail Imaging Management Group',
-    period: 'Sep 2025 – Present · Remote',
+    company: 'Retail Imaging Management Group · Remote',
+    period: 'Sep 2025 – Present',
     category: 'Technical Support',
     aht: '< 5 min AHT',
     highlights: [
-      'Provide professional inbound and outbound support across phone, chat, and email with rapid response expectations.',
-      'Troubleshoot complex hardware, software, and administrative issues for enterprise retail clients.',
-      'Rewrite and clarify knowledge base articles and macros to improve accuracy across support content.',
-      'Mentor teammates in DMs and main chat channels so escalated learnings spread quickly.',
-      'Consistently maintain sub-five-minute AHT with minimal ACW while closing loops with customers.',
-      'Partner with leadership to surface documentation gaps and suggest operational improvements.'
+      'Deliver professional inbound and outbound technical support via phone, chat, and email.',
+      'Troubleshoot hardware, software, and administrative issues for enterprise retail clients.',
+      'Rewrite and clarify documentation to improve support consistency.',
+      'Mentor teammates and assist with complex cases to maintain service quality.',
+      'Maintain sub-five-minute AHT and low ACW while meeting all SLA requirements.'
     ]
   },
   {
     id: 'concentrix-resolution',
     role: 'Resolution Specialist',
-    company: 'Concentrix',
-    period: 'Feb 2025 – Mar 2025 · Remote',
+    company: 'Concentrix · Remote',
+    period: 'Feb 2025 – Mar 2025',
     category: 'Technical Support',
     highlights: [
-      'Acted as the escalation point for complex customer inquiries requesting supervisory attention.',
-      'Collaborated with IT and cross-functional teams to troubleshoot web, desktop, and mobile software issues.',
-      'Created detailed software issue tickets to drive timely fixes for user-reported bugs.',
-      'Applied advanced problem-solving skills to resolve unique customer issues standard support could not handle.',
-      'Maintained proactive communication with users to provide resolution updates and protect satisfaction.'
+      'Served as escalation point for complex customer issues requiring advanced problem-solving.',
+      'Partnered with cross-functional teams to resolve web and desktop application challenges.',
+      'Created detailed issue tickets to support accurate and timely resolutions.',
+      'Maintained clear, proactive communication with users to ensure satisfaction.'
     ]
   },
   {
     id: 'concentrix-security',
     role: 'Security Services Expert',
-    company: 'Concentrix',
-    period: 'Feb 2025 – Feb 2025 · Remote',
+    company: 'Concentrix · Remote',
+    period: 'Feb 2025',
     category: 'Technical Support',
     highlights: [
-      'Supported TurboTax users with heightened verification and security protocols to protect accounts.',
-      'Assisted the security services team with troubleshooting account and data privacy issues.',
-      'Strengthened security troubleshooting by applying best practices that safeguarded customer data.'
+      'Supported TurboTax users through enhanced account verification and security procedures.',
+      'Helped identify and resolve account security and privacy concerns.',
+      'Strengthened team response accuracy through consistent documentation practices.'
     ]
   },
   {
     id: 'concentrix-tsr',
     role: 'Technical Support Representative',
-    company: 'Concentrix',
-    period: 'Jan 2025 – Feb 2025 · Remote',
+    company: 'Concentrix · Remote',
+    period: 'Jan 2025 – Feb 2025',
     category: 'Technical Support',
     highlights: [
-      'Guided TurboTax customers through software navigation, troubleshooting, and complex return scenarios.',
-      'Resolved issues via phone with video chat and chat channels while keeping communication clear.',
-      'Escalated complex cases to specialized teams without sacrificing customer satisfaction.',
-      'Leveraged multiple systems simultaneously to diagnose and resolve technical challenges in real time.',
-      'Demonstrated flexibility by supporting customers during peak and off-peak hours.',
-      'Documented interactions thoroughly to inform future support and engineering updates.'
+      'Provided software and account support for TurboTax customers across phone and chat channels.',
+      'Guided users through troubleshooting, navigation, and error resolution steps.',
+      'Escalated unresolved issues while preserving customer satisfaction.',
+      'Balanced speed and thoroughness while maintaining top-quality metrics.'
     ]
   },
   {
     id: 'ntt-support',
     role: 'Support Specialist',
-    company: 'NTT DATA',
-    period: 'Sep 2023 – Jan 2025 · Remote',
-    category: 'Call Center Foundations',
+    company: 'NTT DATA · Remote',
+    period: 'Sep 2023 – Jan 2025',
+    category: 'Customer Support Foundations',
     highlights: [
-      'Delivered high-quality phone-based support to policyholders, beneficiaries, agents, and internal stakeholders.',
-      'Consistently handled 50–75 calls per day while meeting or exceeding service standards.',
-      'Resolved inquiries using deep knowledge of insurance products, policies, and processes.',
-      'Collaborated with management and peers to address service-related concerns proactively.'
+      'Provided professional phone support to policyholders, beneficiaries, and internal teams.',
+      'Managed 50–75 calls per day while maintaining accuracy and empathy.',
+      'Collaborated with leadership to identify process improvements.',
+      'Recognized for reliability and consistent adherence to service standards.'
     ]
   },
   {
     id: 'conduent-supervisor',
     role: 'Call Center Supervisor',
-    company: 'Conduent',
-    period: 'Oct 2021 – Mar 2022 · Remote (USA)',
+    company: 'Conduent · Remote',
+    period: 'Oct 2021 – Mar 2022',
     category: 'Supervisor Leadership',
     highlights: [
-      'Led and managed a remote team of 25+ agents to meet and exceed client contractual obligations.',
-      'Delivered regular coaching and feedback while monitoring performance trends and productivity.',
-      'Oversaw hiring decisions, scheduling, payroll approvals, and policy enforcement for the program.',
-      'Coordinated contests and team activities to drive engagement and results.',
-      'Resolved operational issues by applying technical knowledge and continuous improvement practices.'
+      'Led a team of 25+ remote call center agents to exceed client performance goals.',
+      'Oversaw hiring, training, payroll, scheduling, and coaching initiatives.',
+      'Conducted QA reviews and team contests to improve engagement and results.',
+      'Partnered with management to implement process improvements and uphold compliance.'
     ]
   },
   {
     id: 'conduent-lead',
     role: 'Call Center Team Leader',
-    company: 'Conduent',
-    period: 'Sep 2021 – Oct 2021 · Remote',
+    company: 'Conduent · Remote',
+    period: 'Sep 2021 – Oct 2021',
     category: 'Supervisor Leadership',
     highlights: [
-      'Assisted with managing a 25+ person team to meet contractual KPIs across quality, productivity, and compliance.',
-      'Delivered coaching, feedback, and developmental support to agents navigating complex updates.',
-      'Ensured timely dissemination of process changes while monitoring productivity, adherence, and scheduling.',
-      'Helped coordinate contests, training refreshers, and performance reviews alongside supervisors.'
+      'Assisted supervisors in guiding a 25+ agent team toward quality and productivity targets.',
+      'Delivered coaching, performance reviews, and process updates.',
+      'Helped manage scheduling, adherence, and development planning for team members.'
     ]
   },
   {
     id: 'conduent-advocate',
     role: 'Customer Service Advocate',
-    company: 'Conduent',
-    period: 'Jun 2021 – Sep 2021 · Richmond, IN',
-    category: 'Call Center Foundations',
+    company: 'Conduent · Richmond, IN',
+    period: 'Jun 2021 – Sep 2021',
+    category: 'Customer Support Foundations',
     highlights: [
-      'Acted as the primary point of contact for customers, resolving technical and account issues promptly.',
-      'Demonstrated exceptional verbal and written communication while supporting remote collaboration.',
-      'Maintained high-quality call resolution standards to protect customer satisfaction.',
-      'Offered product solutions and shared best practices that contributed to team success.'
-    ]
-  },
-  {
-    id: 'roller-automation',
-    role: 'Creator & Lead Developer, D4ET Discord Bot',
-    company: 'The Roller Method',
-    period: 'Jun 2023 – Present · Remote',
-    category: 'Coding & Automation',
-    highlights: [
-      'Manage a five-member team maintaining a Discord bot that supports 413,000+ users across 3,500+ servers.',
-      'Provide real-time Diablo 4 event alerts with improvements that boosted speed and reliability over competitors.',
-      'Utilize Python 3, AWS, PostgreSQL Aurora, Redis, and CDN tooling to ensure uptime and efficient delivery.'
+      'Acted as the primary point of contact for customers with technical and account issues.',
+      'Resolved inquiries promptly and professionally.',
+      'Demonstrated clear communication and reliable follow-through in every interaction.'
     ]
   }
 ];

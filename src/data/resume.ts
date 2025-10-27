@@ -1,8 +1,9 @@
 export const resumeHighlights = [
-  'Results-driven technical support professional with a remote operations background spanning supervisor leadership, escalations, and documentation.',
-  'Recognized for consistently maintaining sub-five-minute AHT/AWT while guiding teammates through complex tax, benefits, and security issues.',
-  'Collaborative mentor who refreshes knowledge bases, rewrites support articles, and shares best practices to keep distributed teams in sync.',
-  'Trusted partner to leadership — spotting process gaps, proposing improvements, and delivering initiatives that elevate customer and agent outcomes.'
+  '10+ years of customer service and technical support experience in remote environments.',
+  'Strong background in call center supervision, training, and performance management.',
+  'Proven ability to maintain sub-five-minute AHT while upholding exceptional service quality.',
+  'Experienced in rewriting and improving internal documentation for clarity and accuracy.',
+  'Recognized for mentoring peers and contributing to team success through collaboration.'
 ];
 
 export const resumeUrl = '/resume.pdf';
