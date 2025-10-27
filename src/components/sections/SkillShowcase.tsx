@@ -5,12 +5,12 @@ import SectionHeader from '../common/SectionHeader';
 const focusAreas = [
   'Supervisor operating rhythms that keep teams steady and accountable',
   'Hands-on technical troubleshooting across software, hardware, and security',
-  'Automation and analytics that push insight to the frontlines before it is needed'
+  'Automation and analytics that surface insights before the queue feels the pain'
 ];
 
 const impactStats = [
   { label: 'Servers powered by D4ET', value: '3,500+' },
-  { label: 'Knowledge refreshes delivered', value: '60+ articles' },
+  { label: 'Knowledge refreshes shipped', value: 'Dozens of living articles' },
   { label: 'Queue leadership', value: '25+ agents coached' }
 ];
 
@@ -21,6 +21,8 @@ const toolset = [
   'PostgreSQL',
   'Redis',
   'Discord API',
+  'Notion',
+  'Slack API',
   'Zendesk',
   'Power BI'
 ];
@@ -37,7 +39,7 @@ const skillGroups = [
   {
     title: 'Technical support practice',
     description:
-      'I stay close to tickets and calls so documentation is grounded in real conversations and engineering triage.',
+      'I stay close to tickets and calls so documentation and runbooks stay grounded in real conversations and engineering triage.',
     icon: LifeBuoy,
     tone: 'primary',
     items: ['Security-sensitive escalations', 'Omnichannel troubleshooting (voice, chat, email)', '< 5 minute handle time consistency']
