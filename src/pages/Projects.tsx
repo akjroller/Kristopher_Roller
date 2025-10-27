@@ -10,7 +10,7 @@ const Projects = () => (
       <title>Projects</title>
       <meta
         name="description"
-        content="A closer look at the D4ET bot and supporting automation projects crafted by Kristopher Roller."
+        content="Operations, enablement, and automation initiatives led by Kristopher Roller to support remote call center teams."
       />
     </Helmet>
     <section className="section-container space-y-12">
@@ -55,13 +55,13 @@ const Projects = () => (
           <div className="aspect-video bg-gradient-to-br from-primary/40 via-slate-900 to-purple-700/40">
             <img
               src={featuredProject.image}
-              alt="D4ET dashboard mockup"
+              alt="Operations playbook dashboards and workflow visuals"
               className="h-full w-full object-cover"
               loading="lazy"
             />
           </div>
           <p className="px-8 pb-8 pt-6 text-sm text-slate-300">
-            Designed for clarity in chaos: the bot’s dashboard surfaces live event schedules, uptime analytics, and health alerts so the team can respond instantly.
+            Designed for clarity in chaos: the refreshed playbook pairs dashboards, decision trees, and change logs so every agent knows the latest path to resolution.
           </p>
         </div>
       </div>

@@ -18,17 +18,17 @@ export interface ProjectSummary {
 }
 
 export const featuredProject: ProjectSummary = {
-  title: 'Diablo 4 Events Tracker (D4ET)',
+  title: 'Operations Playbook & Knowledge Refresh',
   description:
-    'A high-uptime Discord bot that keeps the Diablo 4 community in sync with world bosses, Helltide rotations, and legion events.',
+    'A supervision-led enablement overhaul featuring new call flows, LMS content, and automated change management that kept remote agents aligned.',
   metrics: [
-    { label: 'Community reach', value: 'Hundreds of thousands of Diablo 4 players' },
-    { label: 'Reliability', value: '<500ms event delivery with caching + workers' },
-    { label: 'Team leadership', value: 'Led a distributed squad shipping weekly improvements' }
+    { label: 'Articles refreshed', value: '40+ knowledge assets rewritten' },
+    { label: 'Handle time impact', value: 'Sub-5 minute AHT maintained during rollout' },
+    { label: 'Stakeholder coverage', value: 'Ops, QA, and product teams aligned weekly' }
   ],
-  tech: ['Python 3', 'AWS Lambda + Aurora', 'Redis', 'Discord API', 'Docker', 'CDN'],
+  tech: ['Notion', 'Confluence', 'Zendesk', 'Power BI', 'Slack workflows', 'Python automation'],
   links: [
-    { label: 'View on GitHub', href: 'https://github.com/akjroller' },
+    { label: 'View enablement notes', href: 'https://github.com/akjroller' },
     { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' },
     { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
   ],
@@ -37,30 +37,30 @@ export const featuredProject: ProjectSummary = {
 
 export const secondaryProjects: ProjectSummary[] = [
   {
-    title: 'The Roller Method Knowledge Base',
+    title: 'Supervisor Command Center',
     description:
-      'Built a living documentation system that pairs service playbooks with analytics, giving new agents faster confidence on the floor.',
+      'A Power BI and Excel reporting suite that aggregates AHT, QA, adherence, and sentiment to guide daily huddles and escalation reviews.',
     metrics: [
-      { label: 'Documentation', value: 'Comprehensive playbooks with automatic changelog' },
-      { label: 'Stakeholders', value: 'Adopted by operations, QA, and enablement teams' }
+      { label: 'Visibility', value: 'Real-time dashboards for leaders and agents' },
+      { label: 'Decisions accelerated', value: 'Daily standups informed by live metrics' }
     ],
-    tech: ['Notion API', 'Next.js', 'Vercel Cron', 'Supabase'],
+    tech: ['Power BI', 'Excel', 'Python', 'SharePoint', 'Power Automate'],
     links: [
-      { label: 'View architecture', href: 'https://github.com/akjroller' },
+      { label: 'View reporting approach', href: 'https://github.com/akjroller' },
       { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' }
     ]
   },
   {
-    title: 'Support Insights Automation',
+    title: 'D4ET Automation Program',
     description:
-      'Python tooling that surfaces daily KPIs, trending issue types, and recommended documentation updates straight to Slack.',
+      'Led a 5-person volunteer team delivering high-uptime event alerts — a proof point for how I run distributed support tooling with call center rigor.',
     metrics: [
-      { label: 'Time saved', value: 'Hours of manual reporting replaced with automation' },
-      { label: 'Alerts', value: 'Trending tags and backlog spikes flagged automatically' }
+      { label: 'Community served', value: '413K+ users across 3,500+ servers' },
+      { label: 'Reliability', value: '<500ms alert delivery with redundancy' }
     ],
-    tech: ['Python', 'Pandas', 'Slack API', 'AWS EventBridge'],
+    tech: ['Python', 'AWS', 'PostgreSQL', 'Redis', 'Discord API', 'CDN'],
     links: [
-      { label: 'See sample notebook', href: 'https://github.com/akjroller' },
+      { label: 'View on GitHub', href: 'https://github.com/akjroller' },
       { label: 'Indeed profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
     ]
   }

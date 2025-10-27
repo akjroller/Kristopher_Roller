@@ -25,14 +25,14 @@ const Experience = () => {
         <title>Experience</title>
         <meta
           name="description"
-          content="Explore Kristopher Roller’s experience leading technical support teams, reducing handle time, and driving documentation excellence."
+          content="Explore Kristopher Roller’s experience supervising remote call centers, resolving escalations fast, and elevating documentation and automation."
         />
       </Helmet>
       <section className="section-container space-y-10">
         <SectionHeader
           eyebrow="Experience"
           title="Where I’ve delivered impact"
-          description="Explore my supervisor leadership wins, technical support excellence, automation builds, and the call center foundation that still shapes my approach."
+          description="Dive into the roles where I led supervisors, calmed escalations, refreshed knowledge, and built tools that keep call center operations moving."
         />
         <div className="flex flex-wrap gap-3">
           {filters.map((filter) => (
@@ -80,12 +80,12 @@ const Experience = () => {
       <PageBridge
         eyebrow="Connect the dots"
         title="Experience that feeds every other page"
-        description="Compare these roles with the automation builds and resume highlights to see the throughline in how I work."
+        description="Match these roles with the enablement projects and resume highlights to see how I turn frontline lessons into repeatable wins."
         links={[
           {
             label: 'Projects & automation',
             to: '/projects',
-            description: 'Explore the D4ET bot and supporting tools that came out of leading support operations.'
+            description: 'Review the operations playbook refresh and automation programs supporting remote teams.'
           },
           {
             label: 'Resume & downloads',

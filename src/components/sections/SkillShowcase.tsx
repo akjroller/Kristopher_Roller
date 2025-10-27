@@ -3,62 +3,62 @@ import { ShieldCheck, LifeBuoy, Code2, PhoneCall } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const focusAreas = [
-  'Supervisor operating rhythms that keep teams steady and accountable',
-  'Hands-on technical troubleshooting across software, hardware, and security',
-  'Automation and analytics that surface insights before the queue feels the pain'
+  'Supervisor operating rhythms built around huddles, 1:1s, QA, and scorecards',
+  'Escalation and security triage that keeps tax and benefits customers protected',
+  'Enablement and automation that refresh knowledge bases before issues repeat'
 ];
 
 const impactStats = [
-  { label: 'Servers powered by D4ET', value: '3,500+' },
-  { label: 'Knowledge refreshes shipped', value: 'Dozens of living articles' },
-  { label: 'Queue leadership', value: '25+ agents coached' }
+  { label: 'Agents coached', value: '25+ across remote queues' },
+  { label: 'Average handle time', value: '< 5 minutes on escalations' },
+  { label: 'Training assets refreshed', value: 'Dozens of living documents' }
 ];
 
 const toolset = [
-  'Python',
-  'TypeScript',
-  'AWS',
-  'PostgreSQL',
-  'Redis',
-  'Discord API',
-  'Notion',
-  'Slack API',
   'Zendesk',
-  'Power BI'
+  'Salesforce',
+  'Five9',
+  'Nice CXone',
+  'Notion',
+  'Confluence',
+  'Python',
+  'Power BI',
+  'Slack & Teams automation',
+  'AWS & PostgreSQL'
 ];
 
 const skillGroups = [
   {
     title: 'Supervisor leadership system',
     description:
-      'Cadence planning, QA reviews, and coaching paths tailored to every agent — the operations habits I rely on week to week.',
+      'Cadence planning, QA reviews, and action plans tailored to every agent — the operations habits that keep teams calm and consistent.',
     icon: ShieldCheck,
     tone: 'primary',
-    items: ['Performance dashboards & standups', 'Escalation + crisis communication playbooks', 'Hiring, payroll & stakeholder updates']
+    items: ['Performance dashboards & standups', 'Escalation and crisis communication playbooks', 'Hiring, payroll, and stakeholder updates']
   },
   {
     title: 'Technical support practice',
     description:
-      'I stay close to tickets and calls so documentation and runbooks stay grounded in real conversations and engineering triage.',
+      'Hands-on with the queue so troubleshooting steps, documentation, and engineering escalations stay grounded in real conversations.',
     icon: LifeBuoy,
     tone: 'primary',
     items: ['Security-sensitive escalations', 'Omnichannel troubleshooting (voice, chat, email)', '< 5 minute handle time consistency']
   },
   {
-    title: 'Coding & automation toolkit',
+    title: 'Enablement & automation toolkit',
     description:
-      'Bots, analytics, and documentation pipelines emerge from gaps I notice while supervising — shipped to make the next incident easier.',
+      'Bots, analytics, and documentation pipelines emerge from frontline gaps — shipped to make the next incident easier for agents and customers.',
     icon: Code2,
     tone: 'primary',
-    items: ['Python + TypeScript development', 'API orchestration & integrations', 'Automation that feeds knowledge bases']
+    items: ['Python and workflow automation', 'API orchestration and integrations', 'Automations that feed knowledge bases and reports']
   },
   {
     title: 'Call center foundations',
     description:
-      'Grounded in years on the phones — empathy, de-escalation, and protecting the customer promise no matter the queue.',
+      'Grounded in years on the phones — empathy, de-escalation, and honoring the customer promise no matter the queue.',
     icon: PhoneCall,
     tone: 'supporting',
-    items: ['First-contact resolution mindset', 'Soft-skills mentoring & shadowing', 'High-volume readiness & scheduling']
+    items: ['First-contact resolution mindset', 'Soft-skills mentoring and shadowing', 'High-volume readiness and scheduling']
   }
 ];
 
@@ -95,8 +95,7 @@ const SkillShowcase = () => (
         <div className="pointer-events-none absolute bottom-[-35%] left-[-20%] h-72 w-72 rounded-full bg-emerald-400/10 blur-3xl" aria-hidden />
         <div className="relative space-y-8">
           <p className="max-w-xl text-lg text-slate-200">
-            The best way to understand me is to see how leadership, support, and engineering overlap in my day to day. I document
-            what I learn, pair it with automation where it helps, and keep teams informed with transparent metrics and rituals.
+            Leadership, support, and enablement overlap in my day-to-day. I document what I learn on the floor, fold it into training plans, and automate the follow-up so teams always have the latest answers.
           </p>
           <ul className="grid gap-3 sm:grid-cols-2">
             {focusAreas.map((item) => (

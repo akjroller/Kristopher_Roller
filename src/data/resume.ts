@@ -1,8 +1,8 @@
 export const resumeHighlights = [
-  'Supervisor leadership for 25+ remote agents with disciplined coaching rhythms.',
-  'Average handle time under five minutes across high-volume technical support programs.',
-  'Creator and product owner for the D4ET bot serving a global Diablo 4 community.',
-  'Automation and knowledge refresh systems that keep documentation actionable and current.'
+  'Remote call center supervisor trusted with hiring, scheduling, payroll, and KPI delivery for 25+ agents.',
+  'Escalation specialist who keeps AHT under five minutes while calming complex technical and security cases.',
+  'Enablement and education lead shaping knowledge bases, LMS content, and QA rituals that protect compliance.',
+  'Automation-minded builder translating frontline gaps into bots, dashboards, and reporting that speed decisions.'
 ];
 
 export const resumeUrl = '/resume.pdf';

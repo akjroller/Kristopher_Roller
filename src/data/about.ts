@@ -6,28 +6,28 @@ export interface JourneyItem {
 
 export const journey: JourneyItem[] = [
   {
-    year: '2012 – 2018',
-    title: 'Call center foundations',
+    year: '2013 – 2020',
+    title: 'Customer-first foundations',
     description:
-      'Built the fundamentals in fast-paced contact centers — practicing active listening, de-escalation, and rigorous documentation while supporting national programs.'
+      'Grew from frontline advocate to informal floor support, mastering empathy, compliance, and clear documentation while serving national customer programs.'
   },
   {
-    year: '2019 – 2021',
-    title: 'Leaning into technical troubleshooting',
+    year: '2021',
+    title: 'Stepping into team leadership',
     description:
-      'Bridged hardware, software, and SaaS environments, translating engineering language into confident next steps for customers and teammates.'
+      'Moved from top-performing agent to team lead, coordinating updates, coaching sessions, and queue coverage that kept KPIs healthy during seasonal surges.'
   },
   {
     year: '2021 – 2022',
-    title: 'Supervisor leadership in fast-moving centers',
+    title: 'Call center supervisor leadership',
     description:
-      'Led 25+ remote agents through peak seasons, pairing steady coaching with playbooks that lifted KPIs while protecting morale and retention.'
+      'Owned performance management for 25+ agents — hiring, scheduling, quality calibration, and daily operations — while stabilizing service for a national benefits program.'
   },
   {
     year: '2023 – Present',
-    title: 'Automation-fueled enablement',
+    title: 'Remote technical support leadership',
     description:
-      'Pairing agile habits with builder curiosity — architecting the D4ET bot, refreshing knowledge bases, and proving that clarity plus consistency drives loyalty.'
+      'Lead complex escalations, mentor peers, and modernize knowledge bases while piloting automation that keeps remote call center teams confident and compliant.'
   }
 ];
 
@@ -38,8 +38,8 @@ export interface FunFact {
 }
 
 export const funFacts: FunFact[] = [
-  { label: 'Home base', value: 'Richmond, Indiana', icon: 'map-pin' },
-  { label: 'Leadership focus', value: 'Supervisor & coach for 25+ agents', icon: 'badge-check' },
-  { label: 'Tech passions', value: 'Python, TypeScript & automation', icon: 'cpu' },
-  { label: 'Community build', value: 'Creator of the D4ET bot', icon: 'bot' }
+  { label: 'Remote HQ', value: 'Richmond, Indiana', icon: 'map-pin' },
+  { label: 'Team size led', value: '25+ agents across three queues', icon: 'badge-check' },
+  { label: 'Enablement toolkit', value: 'Knowledge ops, LMS content, QA rituals', icon: 'cpu' },
+  { label: 'Automation win', value: 'D4ET bot powering 3,500+ servers', icon: 'bot' }
 ];
