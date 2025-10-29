@@ -4,9 +4,9 @@ import { Linkedin, BriefcaseBusiness, FileText, UsersRound } from 'lucide-react'
 import { resumeUrl } from '../../data/resume';
 
 const stats = [
-  { label: 'Escalation repeat rate', value: '↓ 18% after rewriting playbooks & verification flows' },
-  { label: 'New-hire ramp time', value: '12 agents job-ready in 4 weeks with quick-guides & mentoring' },
-  { label: 'Customer quality scores', value: '95–97% QA across 50–75 omnichannel contacts per day' }
+  { label: 'Team ramp-up time', value: '12 new hires job-ready in 4 weeks through mentoring & quick-guides' },
+  { label: 'Repeat escalation reduction', value: '↓ 18% after refreshing KBs & escalation playbooks' },
+  { label: 'Customer quality scores', value: '95–97% QA across 50–75 daily omnichannel interactions' }
 ];
 
 const fade = {
@@ -39,7 +39,7 @@ const HeroBanner = () => (
     <div className="section-container grid gap-16 pt-12 lg:grid-cols-[1.05fr,0.9fr] lg:items-center">
       <motion.div initial="hidden" animate="visible" className="space-y-8">
         <motion.p className="eyebrow" custom={0} variants={fade}>
-          Technical support supervisor &amp; process improvement specialist
+          Remote team leader · Technical support strategist · Process optimizer
         </motion.p>
         <motion.h1
           className="text-4xl font-semibold tracking-tight text-slate-50 md:text-6xl"
@@ -53,12 +53,12 @@ const HeroBanner = () => (
           custom={2}
           variants={fade}
         >
-          Guiding remote support teams to solve complex issues with empathy, documentation, and measurable results.
+          Turning complex customer challenges into streamlined processes and confident teams.
         </motion.h2>
         <motion.p className="max-w-2xl text-lg text-slate-300 md:text-xl" custom={3} variants={fade}>
-          I began in frontline customer care because I love helping people find answers. A decade later, I coach distributed
-          teams, refresh knowledge bases, and design escalation playbooks that cut repeat contacts and keep quality above 95%.
-          My calm leadership style turns stressful customer moments into confidence-building wins for both agents and clients.
+          I combine frontline experience with a calm, analytical approach to leadership. Whether it’s rewriting documentation,
+          mentoring new hires, or building dashboards that boost clarity and performance — my focus is creating systems that
+          make great service repeatable.
         </motion.p>
         <motion.div className="flex flex-wrap gap-4" custom={4} variants={fade}>
           <a href={resumeUrl} className="btn-primary inline-flex items-center gap-2" download>

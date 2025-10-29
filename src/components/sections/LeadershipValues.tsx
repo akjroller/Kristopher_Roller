@@ -4,24 +4,24 @@ import SectionHeader from '../common/SectionHeader';
 
 const values = [
   {
-    title: 'Clarity before volume',
+    title: 'Clarity before speed',
     description:
-      'Shift frenzy into focus. I translate KPIs into plain language and keep a shared scoreboard so everyone knows what "good" looks like in real time.',
-    proof: '15-minute daily huddles with action steps and updated queue priorities',
+      'Volume follows clarity. I translate performance metrics into shared dashboards and daily standups so everyone understands the “why” behind their targets.',
+    proof: '15-minute daily huddles with metrics and next actions',
     icon: Compass
   },
   {
-    title: 'People-first escalation',
+    title: 'Empathy-driven escalation',
     description:
-      'Every escalation is an opportunity to keep trust. I stay close to the call, recap the path forward, and document the follow-up so nobody repeats the scramble.',
-    proof: 'Escalation playbooks and callback templates reduce repeat contacts',
+      'Every escalation is a moment to reinforce trust. I stay on-call for live support, document the fix, and update the playbook before the next shift.',
+    proof: '18% drop in repeat escalations post-refresh',
     icon: MessageCircleHeart
   },
   {
     title: 'Document the win',
     description:
-      'If we solve it once, we should solve it faster next time. I turn ad-hoc fixes into refreshed macros, quick videos, or knowledge base updates before the next shift.',
-    proof: '40+ refreshed articles and macros shared with QA and training partners',
+      'Great fixes become great documentation. Every new solution feeds back into guides, macros, or KB updates to scale team knowledge.',
+    proof: '40+ articles rewritten & standardized across programs',
     icon: NotebookPen
   }
 ];

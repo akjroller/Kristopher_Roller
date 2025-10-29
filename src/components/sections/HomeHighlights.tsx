@@ -4,27 +4,27 @@ import SectionHeader from '../common/SectionHeader';
 
 const highlights = [
   {
-    title: 'Omnichannel technical support',
+    title: 'Omnichannel technical mastery',
     description:
-      'Phone, chat, email, and video support are part of my daily flow — I resolve issues quickly while keeping customers informed and calm across 50–75 daily conversations.',
+      'Expert in phone, chat, email, and video support. I resolve issues swiftly while maintaining empathy and calm across 50–75 daily customer interactions.',
     icon: LifeBuoy
   },
   {
-    title: 'Escalation & security readiness',
+    title: 'Escalation leadership & security control',
     description:
-      'When issues require heightened verification or supervisor support, I guide the process, protect data, and document what to do next time — preventing repeat escalations by 18%.',
+      'Own the toughest cases with structure and composure. My escalation playbooks and security protocols reduced repeat cases by 18%.',
     icon: ShieldCheck
   },
   {
-    title: 'Training & enablement mindset',
+    title: 'Coaching & enablement culture',
     description:
-      'I rewrite articles, refresh macros, and mentor peers so knowledge bases stay accurate — helping 12 new hires ramp faster with confidence-building quick-guides.',
+      'Mentor peers and rewrite KBs so no one gets stuck twice. My documentation refreshes helped 12 new hires reach full productivity in under a month.',
     icon: NotebookPen
   },
   {
-    title: 'Call center leadership roots',
+    title: 'Operational & team performance',
     description:
-      'Years on the phones and in supervisor roles taught me how to coach, track KPIs, and spot process gaps before they impact customers, keeping QA scores at or above 95%.',
+      'Leverage metrics, QA insights, and dashboards to guide continuous improvement. Leadership built on empathy, consistency, and accountability.',
     icon: UsersRound
   }
 ];

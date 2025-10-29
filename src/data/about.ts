@@ -9,25 +9,25 @@ export const journey: JourneyItem[] = [
     year: '2013 – 2021',
     title: 'Customer Support Foundations',
     description:
-      'Built empathy, communication, and troubleshooting skills supporting customers across benefits and financial programs. Became the go-to resource for accurate answers and de-escalation, earning consistent 95%+ QA scores.'
+      'Developed exceptional communication, empathy, and troubleshooting skills supporting diverse customer bases across benefits and financial programs. Consistently achieved top QA scores and became a trusted go-to resource for peers and leadership.'
   },
   {
     year: '2021 – 2022',
-    title: 'Call Center Leadership',
+    title: 'Team Leadership & Coaching',
     description:
-      'Promoted to Team Leader and later Supervisor at Conduent, guiding 25+ agents remotely through hiring, QA, scheduling, and performance management. Implemented daily scorecards and huddles that improved adherence and reduced escalations by double digits.'
+      'Advanced to Team Leader and Call Center Supervisor at Conduent, leading over 25 remote agents. Delivered ongoing coaching, QA reviews, and performance huddles that raised adherence and quality metrics by more than 10%.'
   },
   {
     year: '2023 – 2025',
     title: 'Insurance & Benefits Support',
     description:
-      'Supported NTT DATA policyholders, beneficiaries, and agents with accuracy and professionalism. Consistently handled 50–75 calls per day while maintaining 95% QA and documenting trending issues for leadership reviews.'
+      'Supported policyholders and agents at NTT DATA with professionalism and accuracy. Managed high call volumes (50–75 per day) while maintaining 95% QA. Partnered with management to document process gaps and enhance training materials.'
   },
   {
     year: '2025 – Present',
-    title: 'Technical Support & Escalations',
+    title: 'Technical Service & Team Mentorship',
     description:
-      'Serving enterprise retail clients at Retail Imaging as a Technical Service Representative. Known for rapid response times, clear communication, and mentoring teammates through complex support issues while maintaining sub-five-minute AHT.'
+      'Provide enterprise-level technical support at Retail Imaging Management Group. Recognized for rapid response, clarity in communication, and mentoring peers through advanced troubleshooting and escalation handling while maintaining <5 min AHT.'
   }
 ];
 
@@ -38,8 +38,8 @@ export interface FunFact {
 }
 
 export const funFacts: FunFact[] = [
-  { label: 'Base of operations', value: 'Richmond, IN · Fully remote ready', icon: 'map-pin' },
-  { label: 'Core metric', value: 'Sub-five-minute average handle time (AHT)', icon: 'timer' },
-  { label: 'Team impact', value: 'Trained, coached, and supported 25+ agents through performance growth', icon: 'users' },
-  { label: 'Documentation strength', value: '40+ knowledge base assets refreshed to cut repeat escalations by 18%', icon: 'file-text' }
+  { label: 'Base of Operations', value: 'Richmond, IN · Fully Remote', icon: 'map-pin' },
+  { label: 'Leadership Impact', value: 'Led and coached 25+ remote agents across multiple clients', icon: 'users' },
+  { label: 'Efficiency Record', value: 'Sub-five-minute average handle time (AHT) with 95% QA', icon: 'timer' },
+  { label: 'Documentation Strength', value: '40+ KB articles rewritten or audited for clarity and accuracy', icon: 'file-text' }
 ];
