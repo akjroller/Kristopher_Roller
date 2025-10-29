@@ -26,9 +26,9 @@ const item = {
 const Testimonials = () => (
   <section className="section-container space-y-12">
     <SectionHeader
-      eyebrow="Testimonials"
-      title="Proof from the people I support"
-      description="Colleagues, supervisors, and partners shared how my leadership, documentation, and calm communication show up during the toughest days."
+      eyebrow="Peer & Leadership Feedback"
+      title="What colleagues say about my impact"
+      description="Supervisors, teammates, and training partners share how I approach leadership, documentation, and complex escalations under pressure."
       align="center"
     />
     <motion.div

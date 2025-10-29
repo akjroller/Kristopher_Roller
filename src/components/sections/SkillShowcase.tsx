@@ -3,15 +3,15 @@ import { ShieldCheck, LifeBuoy, NotebookPen, PhoneCall } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 
 const focusAreas = [
-  'Remote call center leadership grounded in huddles, 1:1s, QA reviews, and scorecards',
-  'Technical troubleshooting for tax, insurance, and retail platforms across phone, chat, email, and video',
-  'Knowledge base rewrites and documentation updates that keep procedures accurate'
+  'Remote team leadership grounded in huddles, QA reviews, and performance dashboards',
+  'Technical troubleshooting for retail, insurance, and tax environments across all contact channels',
+  'Knowledge base improvements that enhance clarity and shorten onboarding cycles'
 ];
 
 const impactStats = [
   { label: 'Average handle time', value: '< 5 minutes sustained' },
-  { label: 'Daily cases supported', value: '50–75 omnichannel contacts' },
-  { label: 'Knowledge assets updated', value: '40+ refreshed articles & macros' }
+  { label: 'Daily cases managed', value: '50–75 omnichannel contacts' },
+  { label: 'Process documentation', value: '40+ refreshed articles & macros' }
 ];
 
 const toolset = [
@@ -111,7 +111,7 @@ const SkillShowcase = () => (
         <div className="pointer-events-none absolute bottom-[-35%] left-[-20%] h-72 w-72 rounded-full bg-emerald-400/10 blur-3xl" aria-hidden />
         <div className="relative space-y-8">
           <p className="max-w-xl text-lg text-slate-200">
-            Leadership, support, and enablement overlap in my day-to-day. I document what I learn on the floor, fold it into training plans, and share the follow-up so teams always have the latest answers.
+            Leadership, documentation, and customer empathy overlap in every role I’ve held. I use metrics and frontline insights to identify friction points, then translate them into updated guides and coaching that improve results across the board.
           </p>
           <ul className="grid gap-3 sm:grid-cols-2">
             {focusAreas.map((item) => (

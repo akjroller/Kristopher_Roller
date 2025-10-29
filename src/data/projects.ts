@@ -18,35 +18,34 @@ export interface ProjectSummary {
 }
 
 export const featuredProject: ProjectSummary = {
-  title: 'Knowledge Base Refresh',
+  title: 'Knowledge Base Modernization Initiative',
   description:
-    'Audited and updated 40+ internal articles and macros to improve accuracy, reduce handle times, and clarify complex procedures for agents and customers.',
+    'Led a cross-department review of 40+ internal knowledge base articles, standardizing tone, accuracy, and usability. Resulted in reduced escalations, faster handle times, and improved agent confidence.',
   metrics: [
-    { label: 'Articles updated', value: '40+ resources rewritten or audited' },
-    { label: 'Handle time focus', value: 'Reduced confusion during 50–75 daily calls' },
-    { label: 'Team alignment', value: 'Coaching, QA, and change logs synced across channels' }
+    { label: 'Documentation Improved', value: '40+ articles rewritten and verified' },
+    { label: 'Impact', value: 'Repeat escalations reduced by 18%' },
+    { label: 'Efficiency', value: 'Improved call flow and reduced AHT sitewide' }
   ],
-  tech: ['Notion', 'Confluence', 'Zendesk', 'SharePoint', 'Excel', 'Power BI'],
+  tech: ['Notion', 'Confluence', 'SharePoint', 'Power BI', 'Excel'],
   links: [
     { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' },
-    { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
+    { label: 'Professional Profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
   ],
-  image: '/d4et-dashboard.svg'
+  image: '/kb-refresh.svg'
 };
 
 export const secondaryProjects: ProjectSummary[] = [
   {
     title: 'Supervisor Dashboard Implementation',
     description:
-      'Created and maintained Excel and Power BI reporting dashboards to track AHT, QA, and adherence for daily coaching and performance meetings.',
+      'Designed and maintained performance dashboards for supervisors to track QA, AHT, and adherence metrics in real time. Used Power BI and Excel to drive daily coaching and recognition meetings.',
     metrics: [
-      { label: 'Visibility', value: 'Live dashboards for supervisors and agents' },
-      { label: 'Coaching support', value: 'Daily huddles guided by actionable metrics' }
+      { label: 'Adherence Gains', value: '+10% improvement within 30 days' },
+      { label: 'Team Coverage', value: '25+ agents monitored daily with real-time feedback' }
     ],
     tech: ['Power BI', 'Excel', 'SharePoint', 'Teams'],
     links: [
-      { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' },
-      { label: 'See professional profile', href: 'https://profile.indeed.com/p/kristopherr-20y8qlr' }
+      { label: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/kristopher-roller-84775294/' }
     ]
   }
 ];

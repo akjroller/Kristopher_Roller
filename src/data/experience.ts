@@ -1,4 +1,7 @@
-export type ExperienceCategory = 'Supervisor Leadership' | 'Technical Support' | 'Customer Support Foundations';
+export type ExperienceCategory =
+  | 'Supervisor Leadership'
+  | 'Technical Support'
+  | 'Customer Support Foundations';
 
 export interface ExperienceItem {
   id: string;
@@ -17,13 +20,13 @@ export const experiences: ExperienceItem[] = [
     company: 'Retail Imaging Management Group · Remote',
     period: 'Sep 2025 – Present',
     category: 'Technical Support',
-    aht: '< 5 min AHT',
+    aht: '<5 min AHT',
     highlights: [
-      'Resolve hardware, software, and administrative issues for enterprise retail clients across phone, chat, and email.',
-      'Coordinate with field partners and update playbooks, cutting repeat escalations by 18%.',
-      'Mentor teammates on complex cases with live coaching, quick-reference guides, and shadow sessions.',
-      'Deliver proactive status updates and post-call summaries for leadership visibility.',
-      'Maintain sub-five-minute AHT, low ACW, and 95%+ QA scores across high-pressure queues.'
+      'Provide inbound and outbound support for enterprise retail clients across phone, chat, and email.',
+      'Troubleshoot complex hardware, software, and administrative issues with accuracy and speed.',
+      'Collaborate with leadership to identify documentation gaps and improve internal KB resources.',
+      'Mentor peers through direct chat coaching and escalation assistance during live operations.',
+      'Maintain sub-five-minute AHT, minimal ACW, and consistent 95%+ QA scores.'
     ]
   },
   {
@@ -33,10 +36,10 @@ export const experiences: ExperienceItem[] = [
     period: 'Feb 2025 – Mar 2025',
     category: 'Technical Support',
     highlights: [
-      'Served as the escalation point for complex TurboTax customer issues requiring advanced troubleshooting.',
-      'Partnered with engineering and product teams to resolve web and desktop application challenges quickly.',
-      'Documented root causes and next steps in detailed tickets so front-line agents could prevent repeat contacts.',
-      'Maintained proactive communication with customers to safeguard satisfaction and compliance.'
+      'Handled advanced TurboTax customer escalations requiring expert-level troubleshooting.',
+      'Partnered with IT and product teams to identify and fix recurring web and desktop issues.',
+      'Created detailed documentation of software bugs and root causes for engineering teams.',
+      'Maintained transparency and satisfaction by delivering proactive communication to users.'
     ]
   },
   {
@@ -46,22 +49,9 @@ export const experiences: ExperienceItem[] = [
     period: 'Feb 2025',
     category: 'Technical Support',
     highlights: [
-      'Guided TurboTax users through enhanced verification and identity protection steps.',
-      'Investigated account security and privacy concerns while protecting sensitive data.',
-      'Strengthened team accuracy by updating verification scripts and knowledge base content.'
-    ]
-  },
-  {
-    id: 'concentrix-tsr',
-    role: 'Technical Support Representative',
-    company: 'Concentrix · Remote',
-    period: 'Jan 2025 – Feb 2025',
-    category: 'Technical Support',
-    highlights: [
-      'Provided software and account support for TurboTax customers across phone and chat channels.',
-      'Guided users through troubleshooting, navigation, and error resolution steps with empathy.',
-      'Escalated unresolved issues while preserving customer satisfaction and compliance.',
-      'Maintained first-contact resolution and quality targets in a surge environment.'
+      'Assisted users with enhanced verification, fraud protection, and account recovery steps.',
+      'Applied security protocols and best practices to protect sensitive customer data.',
+      'Updated knowledge base entries for improved verification accuracy across the team.'
     ]
   },
   {
@@ -71,10 +61,10 @@ export const experiences: ExperienceItem[] = [
     period: 'Sep 2023 – Jan 2025',
     category: 'Customer Support Foundations',
     highlights: [
-      'Provided professional phone support to policyholders, beneficiaries, and internal teams with 95% QA scores.',
-      'Managed 50–75 calls per day while balancing compliance, empathy, and documentation accuracy.',
-      'Collaborated with leadership to identify process improvements and share weekly trend reports.',
-      'Recognized for reliability, attendance, and mentoring peers through tough cases.'
+      'Delivered high-quality phone-based support to policyholders, agents, and internal partners.',
+      'Handled 50–75 calls per day while maintaining 95% QA and compliance standards.',
+      'Contributed to weekly trend reports and documentation updates to improve service delivery.',
+      'Recognized by leadership for reliability, attendance, and mentorship of newer agents.'
     ]
   },
   {
@@ -84,10 +74,10 @@ export const experiences: ExperienceItem[] = [
     period: 'Oct 2021 – Mar 2022',
     category: 'Supervisor Leadership',
     highlights: [
-      'Led a team of 25+ remote call center agents to exceed client performance goals and maintain >95% QA.',
-      'Oversaw hiring, training, payroll, scheduling, and coaching initiatives tailored to each agent.',
-      'Conducted QA reviews, calibration sessions, and recognition programs that increased adherence by 10%.',
-      'Partnered with management to implement process improvements, reduce escalations, and uphold compliance.'
+      'Led 25+ remote agents, driving adherence, quality, and performance improvements across programs.',
+      'Delivered consistent coaching, QA sessions, and calibration reviews to ensure client satisfaction.',
+      'Oversaw scheduling, payroll, and performance metrics to align operations with contractual KPIs.',
+      'Initiated recognition programs and contests that increased morale and reduced attrition by 12%.'
     ]
   },
   {
@@ -97,9 +87,9 @@ export const experiences: ExperienceItem[] = [
     period: 'Sep 2021 – Oct 2021',
     category: 'Supervisor Leadership',
     highlights: [
-      'Assisted supervisors in guiding a 25+ agent team toward quality and productivity targets during peak season.',
-      'Delivered coaching, performance reviews, and process updates with clear next steps.',
-      'Helped manage scheduling, adherence, and development planning that prepared agents for promotion.'
+      'Supported supervisors in managing a 25+ agent team and monitoring KPIs such as QA and adherence.',
+      'Delivered targeted coaching and improvement plans during seasonal volume spikes.',
+      'Facilitated performance discussions and prepared agents for future leadership opportunities.'
     ]
   },
   {
@@ -109,9 +99,9 @@ export const experiences: ExperienceItem[] = [
     period: 'Jun 2021 – Sep 2021',
     category: 'Customer Support Foundations',
     highlights: [
-      'Acted as the primary point of contact for customers with technical and account issues across multiple programs.',
-      'Resolved inquiries promptly and professionally, often handling escalations that required supervisor approval.',
-      'Demonstrated clear communication, accurate documentation, and reliable follow-through in every interaction.'
+      'Provided first-contact resolution for customer inquiries across multiple service lines.',
+      'Handled complex escalations and technical issues with empathy and accuracy.',
+      'Maintained top-tier QA and reliability scores during program transitions.'
     ]
   }
 ];
