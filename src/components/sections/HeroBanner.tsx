@@ -3,12 +3,6 @@ import { Link } from 'react-router-dom';
 import { Linkedin, BriefcaseBusiness, FileText, UsersRound } from 'lucide-react';
 import { resumeUrl } from '../../data/resume';
 
-const stats = [
-  { label: 'Team ramp-up time', value: '12 new hires job-ready in 4 weeks through mentoring & quick-guides' },
-  { label: 'Repeat escalation reduction', value: '↓ 18% after refreshing KBs & escalation playbooks' },
-  { label: 'Customer quality scores', value: '95–97% QA across 50–75 daily omnichannel interactions' }
-];
-
 const fade = {
   hidden: { opacity: 0, y: 24 },
   visible: (index: number) => ({
@@ -98,6 +92,7 @@ const HeroBanner = () => (
         </motion.div>
       </motion.div>
       <motion.div initial="hidden" animate="visible" className="card glass grid gap-6 p-8" variants={cardContainer}>
+        {/* Portrait & tagline */}
         <motion.figure
           className="flex items-center gap-4 rounded-2xl border border-slate-800/70 bg-slate-950/60 p-4"
           custom={0}
@@ -110,24 +105,47 @@ const HeroBanner = () => (
             loading="lazy"
           />
           <figcaption className="text-sm text-slate-300">
-            <span className="block text-sm font-semibold uppercase tracking-[0.28em] text-primary/80">Remote leader</span>
-            <span className="block text-base text-slate-100">10+ years supporting customers &amp; mentoring teams</span>
+            <span className="block text-sm font-semibold uppercase tracking-[0.25em] text-primary/80">
+              Technical Support Leader &amp; Team Mentor
+            </span>
+            <span className="block text-base text-slate-100">
+              Guiding remote teams to deliver efficient, empathetic, and reliable support experiences
+            </span>
           </figcaption>
         </motion.figure>
-        {stats.map((stat, index) => (
-          <motion.div
-            key={stat.label}
-            custom={index + 1}
-            variants={fade}
-            className="rounded-2xl border border-slate-800/70 bg-slate-900/60 p-5 shadow-inner shadow-black/20"
-          >
-            <p className="text-xs uppercase tracking-[0.28em] text-slate-500">{stat.label}</p>
-            <p className="mt-2 text-xl font-semibold text-slate-50">{stat.value}</p>
-          </motion.div>
-        ))}
-        <motion.p className="text-sm italic text-slate-300" custom={stats.length + 1} variants={fade}>
-          “Kristopher steadies the room, gives agents exactly what they need, and turns tough conversations into confident
-          customer moments.” — Former Conduent Supervisor
+
+        {/* How I Lead */}
+        <motion.div
+          custom={1}
+          variants={fade}
+          className="rounded-2xl border border-slate-800/70 bg-slate-900/60 p-5 shadow-inner shadow-black/20"
+        >
+          <p className="text-xs uppercase tracking-[0.28em] text-slate-500">How I Lead</p>
+          <ul className="mt-2 space-y-2 text-slate-50 text-base">
+            <li>🎯 Build clarity and confidence through calm communication and daily coaching</li>
+            <li>🧭 Turn complex technical problems into clear, documented solutions</li>
+            <li>💡 Create playbooks and guides that help new hires ramp faster and veterans stay sharp</li>
+          </ul>
+        </motion.div>
+
+        {/* Impact Highlights */}
+        <motion.div
+          custom={2}
+          variants={fade}
+          className="rounded-2xl border border-slate-800/70 bg-slate-900/60 p-5 shadow-inner shadow-black/20"
+        >
+          <p className="text-xs uppercase tracking-[0.28em] text-slate-500">Impact Highlights</p>
+          <ul className="mt-2 space-y-2 text-slate-50 text-base">
+            <li>📊 Improved QA scores to 95%+ through coaching and documentation alignment</li>
+            <li>🔁 Reduced repeat escalations by 18% with clear verification &amp; process guides</li>
+            <li>👥 Mentored 25+ agents to exceed performance goals across multiple programs</li>
+          </ul>
+        </motion.div>
+
+        {/* Quote */}
+        <motion.p className="text-sm italic text-slate-300" custom={3} variants={fade}>
+          “Kris doesn’t just fix problems — he builds the systems that keep them from coming back.”
+          <br />— Former Supervisor, Conduent
         </motion.p>
       </motion.div>
     </div>
